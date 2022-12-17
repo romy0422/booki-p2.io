@@ -196,6 +196,14 @@ header {
     cursor:pointer;
     background-color: white;
     margin: 0px 25px;
+    font-weight: 600;
+    font-size: 100%;
+    text-align: center;
+   
+}
+
+i{
+  padding-right: 5px;
 }
 
 .filter-button{
