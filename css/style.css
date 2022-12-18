@@ -278,7 +278,7 @@ margin-top: 25px;
   }
   .accommodation-result{
     background: #F2F2F2;
-    width: 65%;
+    width: 70%;
     height: 700px;
     border-radius: 20px;
     margin-right: 30px;
@@ -292,21 +292,21 @@ margin-top: 25px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+    width: auto;
   }
  
   .accommodation-result img{
     object-fit: cover;
-    width: 89%;
-    height: 150px;
+    width: 94%;
+    height: 130px;
     border-radius: 20px 25px 0 0;
-    padding-right: 10px;
-    margin: 5px 0 0 5px;
+    padding-right: 15px;
+   
     
   }
   
   .accommodation-result .border-picture{
-    width: 220px;
+    width: 300px;
     height: auto;
     background: white;
     margin-bottom: 40px;
@@ -374,7 +374,7 @@ margin-top: 25px;
     border-radius: 20px;
     background-color: white;
     height: 144px;
-    width: 350px;
+    width: 390px;
     margin-bottom: 30px;
     display: flex;
     margin-left: 40px;
@@ -394,7 +394,7 @@ margin-top: 25px;
   }
   
   .popular-result .star{
-    margin-top: 25px;
+    margin-top: 50px;
   }
  
   .popular-result .colorgrey{
