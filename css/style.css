@@ -4,7 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
-@media screen and (min-width:992) and (max-width:2000){ 
+@media screen and (min-width:992px){ 
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: "Raleway, sans-serif";
+  font-family: "Raleway";
   max-width: 1400px;
   width: 90%;
   margin: auto;
@@ -488,7 +488,7 @@ margin-top: 25px;
 
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:768px) and (max-width:992px){
 
   * {
     margin: 0;
@@ -498,8 +498,8 @@ margin-top: 25px;
   }
   
   body {
-    font-family: "Raleway, sans-serif";
-    max-width: 1400px;
+    font-family: "Raleway";
+    max-width: 992px;
     width: 90%;
     margin: auto;
     font-style: normal;
