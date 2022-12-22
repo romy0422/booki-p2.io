@@ -460,7 +460,7 @@ margin-top: 25px;
     display: flex; 
     background-color: #F2F2F2;
     padding: 50px 50px 50px 50px;
-    height: 225%;
+    
     width: 92%;
     left: 48px;
     top: 0px;
@@ -761,13 +761,14 @@ margin-top: 25px;
   margin-top: 25px;
       display: flex;
     }
-    .accommodation-result{
+    article{
       background: #F2F2F2;
       width: 70%;
       height: 700px;
       border-radius: 20px;
       margin-right: 30px;
       padding-bottom: 30px;
+      display: flex;
     }
     .accommodation-result h2{
       margin: 40px 0 40px 20px;
@@ -830,7 +831,7 @@ margin-top: 25px;
     
     /* Popular Section */
 
-    .popular-result{
+    aside{
       background: #F2F2F2;
       width: 31.5%;
       height: 730px;
