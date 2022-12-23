@@ -1481,9 +1481,9 @@ height: 300px;
 
   .activity-result img {
     object-fit: cover;
-    width: 387px;
     border-radius: 15px 15px 0 0;
-
+    width:94%; 
+    margin:0 auto;
   }
 
 
