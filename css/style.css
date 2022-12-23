@@ -1205,7 +1205,7 @@ flex-direction: column;
     cursor: pointer;
     background-color: white;
     margin: 0px 25px;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 100%;
     text-align: center;
 
@@ -1217,9 +1217,8 @@ flex-direction: column;
 
   .filter-button {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 80%;
+    flex-direction: column;
+    
   }
 
   .button-icon:active {
@@ -1227,22 +1226,17 @@ flex-direction: column;
 
   }
 
-  .filters-section {
+  .filters-section .bloc-button1{
     display: flex;
-    margin: 20px 0 0 6px;
-    max-width: 400px;
-    height: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding-right: 30px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-bottom: 150px;
+    width: 100%;
+    flex-direction: row;
+    margin: 10px 0 10px 0px;
   }
-
+  .filters-section .bloc-button2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
   .filters-section>h3 {
     margin: 15px 40px 0 30px;
     font-size: 100%;
@@ -1361,6 +1355,9 @@ flex-direction: column;
     width: 100%;
   }
 
+  .text-print{
+    display: none;
+  }
 
   /* Popular Section */
 
@@ -1436,9 +1433,7 @@ flex-direction: column;
   /*Activity Section*/
   .activity-result {
     display: flex;
-    margin-left: 30px;
     flex-direction: column;
-    flex-basis: auto;
   }
 
   .activity-result h2 {
@@ -1447,10 +1442,7 @@ flex-direction: column;
 
   .bloc-card {
     display: flex;
-    height: 325px;
-    gap: 5%;
 flex-direction: column;
-flex-basis: auto;
   }
 
   .activity-result .card-column .border-activity {
@@ -1459,22 +1451,14 @@ flex-basis: auto;
 
   .activity-result img {
     object-fit: cover;
-    width: 200px;
+    width: 370px;
     border-radius: 15px 15px 0 0;
-    max-width: 100%;
-
-  }
-
-  .picture-activity1 {
-    height: 100px;
-    width: 100px;
   }
 
 
   .border-activity {
     border-radius: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
-    max-height: 325px;
     padding-bottom: 20px;
   }
 
@@ -1493,10 +1477,10 @@ flex-basis: auto;
    
     background-color: #F2F2F2;
     padding: 50px 50px 50px 50px;
-    margin-left: 50px;
+  
     border-radius: 0px;
     flex: 1;
-margin-top: 100%;
+
   }
 
   .section-footer {
