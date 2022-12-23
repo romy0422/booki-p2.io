@@ -513,7 +513,7 @@
 
 }
 
-@media screen and (min-width:768px) and (max-width:1400px) {
+@media (min-width:768px) and (max-width: 992px) {
 
   * {
     margin: 0;
@@ -524,8 +524,9 @@
 
   body {
     font-family: "Raleway";
-    max-width: 1400px;
-    width: 992px;
+    max-width: 992px;
+    min-width: 768px;
+    width: 90%;
     margin: auto;
     font-style: normal;
     font-weight: 400;
@@ -1026,7 +1027,7 @@
 
 }
 
-@media screen and (max-width:767px) {
+@media (max-width:768px) {
 
   * {
     margin: 0;
@@ -1045,6 +1046,8 @@
     margin: 0px auto;
     padding: 0px 0px;
     flex-direction: column;
+    max-width: 768px;
+    width: 100%;
   }
 
   /**************************************************************HEADER*****************************************************/
@@ -1456,25 +1459,30 @@
   .activity-result {
     display: flex;
     flex-direction: column;
+   
   }
 
   .activity-result h2 {
     margin: 40px 0 30px 0;
+  
   }
 
   .bloc-card {
     display: flex;
     flex-direction: column;
+  
   }
 
   .activity-result .card-column .border-activity {
     margin-bottom: 50px;
+    
   }
 
   .activity-result img {
     object-fit: cover;
-    width: 370px;
+    width: 387px;
     border-radius: 15px 15px 0 0;
+
   }
 
 
@@ -1482,6 +1490,7 @@
     border-radius: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     padding-bottom: 20px;
+
   }
 
 
@@ -1499,17 +1508,18 @@
 
     background-color: #F2F2F2;
     padding: 50px 50px 50px 50px;
-
     border-radius: 0px;
     flex: 1;
-
+    width: auto;
+    margin:auto;
   }
 
   .section-footer {
-
+    padding: 20px 20px 20px 20px;
     font-weight: 16px;
     font-size: 14px;
     line-height: 19px;
+    margin:auto;
   }
 
 
