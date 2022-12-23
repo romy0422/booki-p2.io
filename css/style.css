@@ -14,7 +14,7 @@
   }
 
   body {
-    font-family: "Raleway";
+    font-family: "Raleway","sans-serif";
     max-width: 1400px;
     width: 90%;
     margin: auto;
@@ -418,11 +418,11 @@
 
 
   /*Activity Section*/
-  article {
+  .activity-result {
     margin-right: 15px;
   }
 
-  article h2 {
+  .activity-result h2 {
     margin: 40px 0 30px 0;
   }
 
@@ -438,15 +438,17 @@
   }
 
   .activity-result img {
-    object-fit: cover;
-    width: 350px;
+    object-fit:cover;
+    width: 305px;
     border-radius: 15px 15px 0 0;
+    margin-right: 50px;
     max-width: 100%;
 
   }
 
   .picture-activity1 {
     height: 400px;
+    
   }
 
 
@@ -890,7 +892,7 @@ display: flex;
     margin-right: 100%;
     display: flex;
     margin-bottom: 30px;
-    
+    flex-direction: row;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 
   }
@@ -1039,7 +1041,7 @@ display: flex;
     height: 19px;
     left: 0px;
     top: 0px;
-    flex-direction: column;
+    align-items: center;
   }
 
   .head-top {
@@ -1052,13 +1054,12 @@ display: flex;
   header nav {
     display: flex;
     flex: 1;
-
+flex-direction: column;
 
   }
 
   header ul {
     flex: 1;
-    display: flex;
     display: flex;
     justify-content: center
   }
