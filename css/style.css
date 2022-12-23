@@ -834,7 +834,7 @@
 
   article img {
     object-fit: cover;
-    width: 80%;
+    width: 94%;
     height: 130px;
     border-radius: 20px 25px 0 0;
 
@@ -880,22 +880,21 @@
     width: 100%;
     border-radius: 20px;
     display: flex;
-    height: 200px;
-    gap: 2%;
     margin-top: 5%;
 
   }
 
-  .bloc-popular {}
-
   .popular-result .title-graph {
     display: flex;
-
+    justify-content: space-around;
+    margin: 40px 0;
+    flex-direction: row;
   }
 
   .fa-chart-line {
     font-size: 15px;
     color: #0065fc;
+    justify-content: flex-end;
 
   }
 
@@ -905,7 +904,7 @@
   }
 
 
-  .border-popular {
+  .border-popular{
     border: 2px solid white;
     border-radius: 20px;
     background-color: white;
@@ -931,6 +930,7 @@
   .popular-result .text-picture {
     margin-top: 10px;
     font-size: 15px;
+
   }
 
   .popular-result .star {
