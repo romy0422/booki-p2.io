@@ -513,7 +513,7 @@
 
 }
 
-@media (min-width:768px) and (max-width: 992px) {
+@media (min-width:767px) and (max-width: 992px) {
 
   * {
     margin: 0;
@@ -525,7 +525,7 @@
   body {
     font-family: "Raleway";
     max-width: 992px;
-    min-width: 768px;
+    min-width: 769px;
     width: 90%;
     margin: auto;
     font-style: normal;
@@ -882,6 +882,7 @@
     border-radius: 20px;
     display: flex;
     margin-top: 5%;
+height: 300px;
 
   }
 
@@ -1027,7 +1028,7 @@
 
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
 
   * {
     margin: 0;
