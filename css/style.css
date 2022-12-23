@@ -1017,11 +1017,12 @@ display: flex;
     font-family: "Raleway";
     margin: auto;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 14px;
     line-height: 16px;
     margin: 0px auto;
     padding: 0px 0px;
+    flex-direction: column;
   }
 
   /**************************************************************HEADER*****************************************************/
@@ -1032,6 +1033,9 @@ display: flex;
     width: 100%;
     display: flex;
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .logo-booki {
@@ -1039,25 +1043,24 @@ display: flex;
     height: 19px;
     left: 0px;
     top: 0px;
-    align-items: center;
+ 
   }
 
   .head-top {
 
     display: flex;
+    
 
   }
 
 
   header nav {
     display: flex;
-    flex: 1;
 flex-direction: column;
 
   }
 
   header ul {
-    flex: 1;
     display: flex;
     justify-content: center
   }
@@ -1075,7 +1078,7 @@ flex-direction: column;
   }
 
 
-  header .border-blue:hover {
+  header .border-blue:active {
     border-bottom: 3px solid #0065fc;
     color: #0065fc;
     padding-top: 20px;
@@ -1219,7 +1222,7 @@ flex-direction: column;
     width: 80%;
   }
 
-  .button-icon:hover {
+  .button-icon:active {
     background-color: #DEEBFF;
 
   }
@@ -1227,11 +1230,17 @@ flex-direction: column;
   .filters-section {
     display: flex;
     margin: 20px 0 0 6px;
+    max-width: 400px;
+    height: 60px;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
-
     padding-right: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 150px;
   }
 
   .filters-section>h3 {
@@ -1288,16 +1297,15 @@ flex-direction: column;
     margin-top: 25px;
     display: flex;
     flex-direction: column-reverse;
+  
   }
 
   .accommodation-result {
     background: #F2F2F2;
     width: 100%;
-    height: 700px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    
 
 
   }
@@ -1320,8 +1328,6 @@ flex-direction: column;
     width: 80%;
     height: 130px;
     border-radius: 20px 25px 0 0;
-
-
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -1360,14 +1366,12 @@ flex-direction: column;
 
   .popular-result {
     background: #F2F2F2;
-    width: 100%;
-    height: 10%;
+    flex-basis: auto;
+   
     border-radius: 20px;
     display: flex;
-    flex: 1;
-    gap: 5%;
     flex-direction: column;
-
+  
 
   }
 
@@ -1393,13 +1397,13 @@ flex-direction: column;
     border: 2px solid white;
     border-radius: 20px;
     background-color: white;
-    height: 30px;
+ 
     width: 300px;
     margin-right: 100%;
 
     margin-bottom: 30px;
     display: flex;
-
+    flex-basis: auto;
 
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 
@@ -1431,8 +1435,10 @@ flex-direction: column;
 
   /*Activity Section*/
   .activity-result {
+    display: flex;
     margin-left: 30px;
-
+    flex-direction: column;
+    flex-basis: auto;
   }
 
   .activity-result h2 {
@@ -1443,8 +1449,8 @@ flex-direction: column;
     display: flex;
     height: 325px;
     gap: 5%;
-
-
+flex-direction: column;
+flex-basis: auto;
   }
 
   .activity-result .card-column .border-activity {
@@ -1460,15 +1466,15 @@ flex-direction: column;
   }
 
   .picture-activity1 {
-    height: 250px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
   }
 
 
   .border-activity {
     border-radius: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
-    max-height: 535px;
+    max-height: 325px;
     padding-bottom: 20px;
   }
 
@@ -1484,18 +1490,17 @@ flex-direction: column;
   /* Footer */
 
   footer {
-    height: 100%;
-    display: flex;
+   
     background-color: #F2F2F2;
     padding: 50px 50px 50px 50px;
     margin-left: 50px;
     border-radius: 0px;
-
-
+    flex: 1;
+margin-top: 100%;
   }
 
   .section-footer {
-    flex: 1;
+   
     font-weight: 16px;
     font-size: 14px;
     line-height: 19px;
