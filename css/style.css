@@ -207,24 +207,6 @@
     text-align: center;
 
   }
-  .button-icon {
-    height: 50px;
-    width: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100%;
-    color: black;
-    border: 2px solid #dfdede;
-    border-radius: 30px;
-    cursor: pointer;
-    background-color: white;
-    margin: 0px 25px;
-    font-weight: 600;
-    font-size: 100%;
-    text-align: center;
-
-  }
 
   i {
     padding-right: 5px;
@@ -398,7 +380,7 @@ margin: auto auto;
     width: 30%;
 display: flex;
     border-radius: 20px;
-
+flex-direction: column;
   }
 
   .popular-result .title-graph {
@@ -762,17 +744,18 @@ display: flex;
     
   }
 
-  .filters-section .bloc-button1 {
+  .filters-section .bloc-button1>p {
     display: flex;
     width: 100%;
     flex-direction: row;
-
+color: black;
   }
 
-  .filters-section .bloc-button2 {
+  .filters-section .bloc-button2>p {
     display: flex;
     width: 100%;
     flex-direction: row;
+color: black;
   }
 
   .filters-section>h3 {
