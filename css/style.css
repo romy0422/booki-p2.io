@@ -711,8 +711,8 @@ flex-direction: column;
   /* Filters */
   .button-icon {
     height: 50px;
-    width: 180px;
-    display: flex;
+  width: 160px;
+   
     justify-content: center;
     align-items: center;
     font-size: 100%;
@@ -735,6 +735,7 @@ flex-direction: column;
   .filter-button {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
 
   }
 
@@ -746,23 +747,13 @@ flex-direction: column;
   .filters-section {
     display: flex;
     margin: 20px;
-    justify-content: flex-start;
+   flex-direction: column;
+   justify-content: space-around;
     
   }
 
-  .filters-section .bloc-button1>p {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-color: black;
-  }
 
-  .filters-section .bloc-button2>p {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-color: black;
-  }
+  
 
   .filters-section>h3 {
     margin: 15px 0 30px;
@@ -934,8 +925,7 @@ height: 300px;
     background-color: white;
     height: 90%;
     width: 90%;
-    margin-right: 100%;
-    display: flex;
+    margin-left: 55px;
     margin-bottom: 30px;
     flex-direction: row;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
