@@ -217,6 +217,18 @@
     align-items: center;
   }
 
+  .filters-section .bloc-button1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  
+  }
+  .filters-section .bloc-button2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+
   .button-icon:hover {
     background-color: #DEEBFF;
 
@@ -229,7 +241,7 @@
 
     padding-right: 30px;
   }
-
+  
   .filters-section>h3 {
     margin: 15px 40px 0 30px;
     font-size: 100%;
