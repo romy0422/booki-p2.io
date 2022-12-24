@@ -919,7 +919,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 5%;
-    height: 300px;
+    height: 315px;
 
   }
 
@@ -939,9 +939,10 @@
   .bloc-popular1 {
     display: flex;
     margin: auto;
+    margin-bottom: 30%;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 30%;
+    width: 100%;
     height: 55%;
     gap: 30px;
 
@@ -970,6 +971,7 @@
     flex: 2;
     object-fit: cover;
     width: 10px;
+    height: 200px;
 
   }
 
@@ -1475,12 +1477,14 @@ height: 150px;
 
   }
 
+ 
   .bloc-popular1 {
     display: flex;
     margin: auto;
+    margin-bottom: 30%;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 30%;
+    width: 100%;
     height: 55%;
     gap: 30px;
 
@@ -1509,6 +1513,7 @@ height: 150px;
     flex: 2;
     object-fit: cover;
     width: 10px;
+    height: 200px;
 
   }
 
