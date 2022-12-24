@@ -173,6 +173,10 @@
     visibility: hidden;
   }
 
+  .glass{
+    display: none;
+  }
+
   .form-search {
     display: flex;
   }
@@ -964,7 +968,7 @@ height: 300px;
   /*Activity Section*/
   .activity-result {
     margin-left: 30px;
-
+    
   }
 
   .activity-result h2 {
@@ -1076,7 +1080,6 @@ height: 300px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -1100,18 +1103,17 @@ height: 300px;
 
   header nav {
     display: flex;
-    flex-direction: column;
-
+justify-content: flex-start;
   }
 
   header ul {
     display: flex;
-    justify-content: center
+    justify-content: flex-end
   }
 
   header ul li {
     display: flex;
-
+    justify-content: flex-end
 
   }
 
@@ -1211,9 +1213,11 @@ height: 300px;
     font-weight: 600;
     background-color: #0065fc;
     cursor: pointer;
-    display: none;
+    
   }
-
+.glass{
+  display: none;
+}
   .fa-magnifying-glass {
     flex: 1;
     background-color: #0065FC;
@@ -1224,6 +1228,7 @@ height: 300px;
     border-radius: 0px 15px 15px 0px;
     min-width: 50px;
     max-width: 70px;
+    display: none;
   }
 
   .form-search {
@@ -1342,7 +1347,7 @@ height: 300px;
   .section-global {
     margin-top: 25px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 
   }
 
@@ -1366,7 +1371,13 @@ height: 300px;
   .bloc1 {
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .bloc2 {
+    display: flex;
+    flex-direction: row;
     width: 100%;
   }
 
@@ -1386,7 +1397,7 @@ height: 300px;
     padding-bottom: 10px;
     width:94%; 
     margin:0 auto;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .text-picture {
@@ -1398,12 +1409,6 @@ height: 300px;
     font-size: 90%;
   }
 
-  .bloc2 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
   .text-print {
     display: none;
   }
@@ -1412,11 +1417,11 @@ height: 300px;
 
   .popular-result {
     background: #F2F2F2;
-    flex-basis: auto;
+    
 
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
+    margin-top: 50px;
     justify-content: center;
 
 
@@ -1426,7 +1431,7 @@ height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    white-space: nowrap;
+    
     width: 90%;
     margin-top: 30px;
     margin-left: auto;
@@ -1492,6 +1497,7 @@ height: 300px;
   .activity-result {
     display: flex;
     flex-direction: column;
+    
    
   }
 
@@ -1502,7 +1508,7 @@ height: 300px;
 
   .bloc-card {
     display: flex;
-    flex-direction: column;
+   
   
   }
 
@@ -1545,6 +1551,8 @@ height: 300px;
     flex: 1;
     width: auto;
     margin:auto;
+   
+    
   }
 
   .section-footer {
