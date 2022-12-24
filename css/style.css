@@ -1555,14 +1555,13 @@ height: 150px;
   }
 
   .popular-result .text-picture {
-    margin-top: 10px;
-    font-size: 13px;
-    line-height: 15px;
-    white-space: normal;
+    margin-top: 5px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
   }
 
   .popular-result .star {
-
     font-size: 80%;
   }
 
