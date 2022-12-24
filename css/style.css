@@ -17,7 +17,7 @@
     font-family: "Raleway", "sans-serif";
     max-width: 1400px;
     min-width: 992px;
-    width: 90%;
+    width: 95%;
     margin: auto;
     font-style: normal;
     font-weight: 400;
@@ -335,8 +335,8 @@
 .bloc1{
   display: flex;
   flex-wrap: wrap;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin: auto;
+  margin-left: 30px;
   width: 100%;
   gap: 30px;
 }
@@ -344,7 +344,7 @@
 .accommodation-result img {
   object-fit: cover;
   height: 100px;
-  width: 235px;
+  width: auto;
   border-radius: 20px 20px 0 0;
  
 }
@@ -860,12 +860,20 @@ flex-direction: column;
   }
 
 
-
-  article img {
-    width: 94%;
-    height: 130px;
-    border-radius: 20px 25px 0 0;
+  .bloc1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
     width: 100%;
+    gap: 30px;
+  }
+  
+  .accommodation-result img {
+    object-fit: cover;
+    height: 100px;
+    width: auto;
+    border-radius: 20px 20px 0 0;
    
   }
 
@@ -873,13 +881,15 @@ flex-direction: column;
     width: auto;
     height: 230px;
     background: white;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     padding-bottom: 10px;
     flex: 2;
     object-fit: cover;
+    height: auto;
+    width: 30%;
   }
 
   .text-picture {
@@ -921,8 +931,17 @@ height: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    box-sizing: border-box;
-    height: auto;
+   
+  }
+
+  .bloc-popular1{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 55%;
+    gap: 30px;
+   
   }
 
   .fa-chart-line {
@@ -939,31 +958,30 @@ height: 300px;
 
 
   .border-popular{
-    border: 2px solid white;
-    border-radius: 20px;
-    background-color: white;
-    height: 90%;
-    width: 90%;
-    margin-left: 55px;
-    margin-bottom: 30px;
-    flex-direction: row;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    background: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 3px 15px rgb(0 0 0 / 10%);
+    padding-bottom: 10px;
+    flex: 2;
+    object-fit: cover;
+   width: 10px;
 
   }
 
   img {
     object-fit: cover;
-    height: 100px;
-    width: 110px;
-    border-radius: 20px 0 0 20px;
+    width:100px;
+    border-radius: 20px 20px 0 0px;
     padding: 3%;
-
+    
   }
 
   .popular-result .text-picture {
     margin-top: 10px;
     font-size: 15px;
-
+white-space: normal;
   }
 
   .popular-result .star {
