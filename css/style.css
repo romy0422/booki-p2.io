@@ -1090,19 +1090,17 @@ height: 150px;
   }
 
   body {
-    font-family: "Raleway";
+    font-family: "Raleway", "sans-serif";
+    max-width: 992px;
+    min-width: 769;
+    width: 90%;
     margin: auto;
-    max-width: 768px;
-    min-width: 491px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     margin: 0px auto;
     padding: 0px 0px;
-    flex-direction: column;
-    max-width: 768px;
-    width: 100%;
   }
 
   /**************************************************************HEADER*****************************************************/
@@ -1111,10 +1109,6 @@ height: 150px;
 
   header {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
   .logo-booki {
@@ -1122,31 +1116,35 @@ height: 150px;
     height: 19px;
     left: 0px;
     top: 0px;
-    margin: 20px auto;
 
   }
 
   .head-top {
 
     display: flex;
-
+    justify-content: space-between;
 
   }
 
 
   header nav {
     display: flex;
-    justify-content: flex-start;
+    flex: 1;
+
+
   }
 
   header ul {
+    flex: 1;
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
+    margin-top: 0px;
   }
 
   header ul li {
     display: flex;
-    justify-content: flex-end
+
+
   }
 
   header .border-blue {
@@ -1156,8 +1154,8 @@ height: 150px;
   }
 
 
-  header .border-blue:active {
-    border-bottom: 3px solid #0065fc;
+  header .border-blue:hover {
+    border-top: 3px solid #0065fc;
     color: #0065fc;
     padding-top: 20px;
 
@@ -1221,7 +1219,7 @@ height: 150px;
 
   .search-bar input {
     height: 50px;
-    width: 150px;
+    width: 230px;
     display: flex;
     border: #f2f2f2 1px solid;
     font-weight: 600;
@@ -1236,8 +1234,8 @@ height: 150px;
 
   .search-bar .search {
     border-radius: 0 10px 10px 0;
-    height: 1px;
-    width: 1px;
+    height: 50px;
+    width: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1245,24 +1243,11 @@ height: 150px;
     font-weight: 600;
     background-color: #0065fc;
     cursor: pointer;
-
   }
 
   .glass {
     display: none;
-  }
 
-  .fa-magnifying-glass {
-    flex: 1;
-    background-color: #0065FC;
-    color: #ffffff;
-    vertical-align: middle;
-    height: 100%;
-    border: 1px solid #0065FC;
-    border-radius: 0px 15px 15px 0px;
-    min-width: 50px;
-    max-width: 70px;
-    display: none;
   }
 
   .form-search {
@@ -1283,8 +1268,7 @@ height: 150px;
   /* Filters */
   .button-icon {
     height: 50px;
-    width: 180px;
-    display: flex;
+    width: 150px;
     justify-content: center;
     align-items: center;
     font-size: 100%;
@@ -1293,9 +1277,8 @@ height: 150px;
     border-radius: 30px;
     cursor: pointer;
     background-color: white;
-    margin: 0px 25px;
-    font-weight: 300;
-    font-size: 100%;
+    margin: 0 5px;
+    font-weight: 600;
     text-align: center;
 
   }
@@ -1304,32 +1287,45 @@ height: 150px;
     padding-right: 5px;
   }
 
-  .filter-button {
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  .button-icon:active {
-    background-color: #DEEBFF;
-
-  }
-
   .filters-section .bloc-button1 {
     display: flex;
-    width: 100%;
+    width: 50%;
     flex-direction: row;
-    margin: 10px 0 10px 0px;
+   
   }
 
   .filters-section .bloc-button2 {
     display: flex;
-    width: 100%;
+    width: 50%;
     flex-direction: row;
+
   }
 
+  .filter-button {
+    display: flex;
+    justify-content: space-around;
+    
+
+  }
+
+  .button-icon:hover {
+    background-color: #DEEBFF;
+
+  }
+
+  .filters-section {
+    display: flex;
+    margin: 20px;
+
+    justify-content: space-around;
+
+  }
+
+
+
+
   .filters-section>h3 {
-    margin: 15px 40px 0 30px;
+    margin: 15px 5px 0 30px;
     font-size: 100%;
   }
 
@@ -1382,45 +1378,59 @@ height: 150px;
     margin-top: 25px;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
   }
 
   .accommodation-result {
-    background: #F2F2F2;
-    width: 100%;
-    border-radius: 20px;
     display: flex;
-    margin-left: 30%;
-
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px 20px 20px 20px;
   }
 
   .accommodation-result h2 {
-    display: flex;
-    justify-content: space-around;
-    margin: 40px 0;
+
+    width: 90%;
+    margin: 30px auto;
 
   }
 
+
+  .bloc1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+    width: 100%;
+    gap: 30px;
+  }
 
   .accommodation-result img {
     object-fit: cover;
-    width: 94%;
-    height: 130px;
-    border-radius: 20px 25px 0 0;
+    height: 100px;
+    width: auto;
+    border-radius: 20px 20px 0 0;
 
   }
 
+
   .accommodation-result .border-picture {
-    height: auto;
+    width: auto;
+    height: 230px;
     background: white;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     padding-bottom: 10px;
-    width: 94%;
-    margin: 0 auto;
-    flex-direction: row;
-
+    flex: 2;
+    object-fit: cover;
+    height: auto;
+    width: 30%;
   }
 
   .text-picture {
@@ -1428,25 +1438,27 @@ height: 150px;
     line-height: 25px;
   }
 
-  .accommodation-result .star {
+  .text-print {
+    display: flex;
+  }
+
+  article .star {
     font-size: 90%;
   }
 
-  .text-print {
-    display: none;
-  }
+
+
 
   /* Popular Section */
 
   .popular-result {
     background: #F2F2F2;
-
     width: 100%;
     border-radius: 20px;
     display: flex;
-    margin-top: 50px;
-    justify-content: center;
-
+    flex-wrap: wrap;
+    margin-top: 5%;
+    height: 300px;
 
   }
 
@@ -1454,19 +1466,31 @@ height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    white-space: nowrap;
     width: 90%;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    box-sizing: border-box;
-    height: auto;
+
+  }
+
+  .bloc-popular1 {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%;
+    height: 55%;
+    gap: 30px;
+
   }
 
   .fa-chart-line {
     font-size: 15px;
     color: #0065fc;
+    justify-content: flex-end;
+
   }
 
   .star {
@@ -1475,27 +1499,23 @@ height: 150px;
   }
 
 
-  .popular-result .border-popular {
-    border: 2px solid white;
-    border-radius: 20px;
-    background-color: white;
-
-    width: 300px;
-    margin-left: 45px;
-
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  .border-popular {
+    background: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 3px 15px rgb(0 0 0 / 10%);
+    padding-bottom: 10px;
+    flex: 2;
+    object-fit: cover;
+    width: 10px;
 
   }
 
   img {
     object-fit: cover;
-    height: 100px;
-    width: 110px;
-    border-radius: 20px 0 0 20px;
+    width: 100px;
+    border-radius: 20px 20px 0 0px;
     padding: 3%;
 
   }
@@ -1503,56 +1523,61 @@ height: 150px;
   .popular-result .text-picture {
     margin-top: 10px;
     font-size: 15px;
+    white-space: normal;
   }
 
   .popular-result .star {
 
-    font-size: 90%;
+    font-size: 80%;
   }
 
   .popular-result .colorgrey {
     color: #d6d1d1;
-    font-size: 600;
+    font-size: 90%;
   }
 
 
   /*Activity Section*/
   .activity-result {
-    display: flex;
-    flex-direction: column;
-
+    margin-left: 30px;
 
   }
 
   .activity-result h2 {
     margin: 40px 0 30px 0;
-
   }
 
   .bloc-card {
     display: flex;
+    height: 325px;
+    gap: 5%;
 
 
   }
 
   .activity-result .card-column .border-activity {
     margin-bottom: 50px;
-
   }
 
   .activity-result img {
     object-fit: cover;
+    width: 200px;
     border-radius: 15px 15px 0 0;
-    width: 94%;
-    margin: 0 auto;
+    max-width: 100%;
+height: 150px;
+  }
+
+  .picture-activity1 {
+    height: 250px;
+    width: 50px;
   }
 
 
   .border-activity {
     border-radius: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    max-height: 535px;
     padding-bottom: 20px;
-
   }
 
 
@@ -1567,23 +1592,21 @@ height: 150px;
   /* Footer */
 
   footer {
-
+    height: 100%;
+    display: flex;
     background-color: #F2F2F2;
     padding: 50px 50px 50px 50px;
+    margin-left: 35px;
     border-radius: 0px;
-    flex: 1;
-    width: auto;
-    margin: auto;
 
 
   }
 
   .section-footer {
-    padding: 20px 20px 20px 20px;
+    flex: 1;
     font-weight: 16px;
     font-size: 14px;
     line-height: 19px;
-    margin: auto;
   }
 
 
@@ -1591,6 +1614,8 @@ height: 150px;
     line-height: 16px;
     color: black;
   }
+
+
 
 
 }
