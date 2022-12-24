@@ -167,6 +167,7 @@
     font-weight: 600;
     background-color: #0065fc;
     cursor: pointer;
+    border: none;
   }
 
   .fa-magnifying-glass {
