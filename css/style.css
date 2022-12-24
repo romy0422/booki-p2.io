@@ -1886,14 +1886,14 @@ flex: 30%;
  
     flex-direction: column;
     width: 100%;
-    padding-bottom: 20px;
+ 
  
   }
 
   .bloc2 {
   
     flex-direction: column;
-    padding: 20px auto;
+    
     width: 100%;
   }
   article img {
