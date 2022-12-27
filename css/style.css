@@ -5,9 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
-@media screen and (min-width:993px) {
   * {
-    margin: 0;
+    margin: 0 0 0 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
@@ -16,14 +15,11 @@
   body {
     font-family: "Raleway", "sans-serif";
     max-width: 1400px;
-    min-width: 992px;
-    width: 95%;
-    margin: auto;
+    width: 90%;
+    margin:auto;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
-    margin: 0px auto;
     padding: 0px 0px;
   }
 
@@ -32,14 +28,14 @@
   /* Header */
 
   header {
-    width: 100%;
+    width: auto;
+
   }
 
   .logo-booki {
     width: 61px;
     height: 19px;
-    left: 0px;
-    top: 0px;
+    margin: auto;
 
   }
 
@@ -91,11 +87,11 @@
 
   .title-head>p {
     margin-top: 50px;
-    margin-left: 35px;
+    
     display: flex;
     justify-content: space-between;
-    margin: 20px 0px;
-    margin-left: 16px;
+    margin: 20px;
+  
     font-family: 'Raleway';
     font-style: normal;
     font-size: 19px;
@@ -104,11 +100,11 @@
   }
 
   .title-head>h1 {
-    margin-left: 35px;
+    
     display: flex;
     justify-content: space-between;
-    margin: 20px 0px;
-    margin-left: 16px;
+    margin: 20px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-size: 22px;
@@ -120,10 +116,6 @@
   /* Main */
 
   /* Search-bar */
-
-  .search-bar {
-    margin-left: 35px;
-  }
 
   .search-bar .map {
     display: flex;
@@ -182,7 +174,7 @@
     display: flex;
   }
 
-  h1 {
+  .search-bar h1 {
     margin-top: 25px;
     margin-bottom: 10px;
   }
@@ -195,20 +187,20 @@
 
   /* Filters */
   .button-icon {
-    height: 50px;
-    width: 180px;
+    height: 40px;
+    width: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 100%;
     color: #0065fc;
     border: 2px solid #dfdede;
     border-radius: 30px;
     cursor: pointer;
     background-color: white;
-    margin: 0px 25px;
-    font-weight: 600;
-    font-size: 100%;
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
     text-align: center;
 
   }
@@ -243,14 +235,14 @@
 
   .filters-section {
     display: flex;
-    margin: 20px 0 0 6px;
+    margin-top: 20px;
     justify-content: flex-start;
 
-    padding-right: 30px;
+    padding-right: 5px;
   }
 
   .filters-section>h3 {
-    margin: 15px 40px 0 30px;
+    margin-top: 15px;
     font-size: 100%;
   }
 
@@ -259,15 +251,11 @@
     font-size: 100%;
     display: flex;
     align-items: center;
-    margin-left: 10px;
   }
 
 
   /* Infos */
 
-  .info-section {
-    margin-left: 5px;
-  }
 
   .info {
     display: flex;
@@ -291,7 +279,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+   
   }
 
   .info-section i {
@@ -303,6 +291,7 @@
     margin-top: 25px;
     display: flex;
     gap: 2%;
+    
   }
 
   .accommodation-result {
@@ -311,8 +300,8 @@
     flex-wrap: wrap;
     background-color: rgb(235, 235, 235);
     border-radius: 20px 20px 20px 20px;
-    width: 70%;
-    height: auto;
+    width: 880px;
+    height: 626px;
   }
 
 
@@ -345,7 +334,7 @@
   .accommodation-result img {
     object-fit: cover;
     height: 100px;
-    width: 94%;
+    width: 100%;
     border-radius: 20px 20px 0 0;
 
   }
@@ -400,8 +389,8 @@
   /* Popular Section */
   .popular-result {
     background: #F2F2F2;
-    width: auto;
-    height: auto;
+    width: 500px;
+    height: 625px;
     display: flex;
     border-radius: 20px;
     flex-direction: column;
@@ -437,7 +426,7 @@
 
   }
 
-  img {
+  .popular-result img {
     object-fit: cover;
     height: 140px;
     width: 110px;
@@ -461,7 +450,7 @@
 
   /*Activity Section*/
   .activity-result {
-    margin-right: 15px;
+    width: auto;
   }
 
   .activity-result h2 {
@@ -477,14 +466,16 @@
 
   .activity-result .card-column .border-activity {
     margin-bottom: 50px;
+    width: auto;
   }
 
   .activity-result img {
     object-fit: cover;
-    width: 305px;
-    border-radius: 15px 15px 0 0;
-    margin-right: 50px;
+    width: 500px;
+    height: 445;
     max-width: 100%;
+    border-radius: 15px 15px 0 0;
+    
 
   }
 
@@ -499,12 +490,13 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     max-height: 535px;
     padding-bottom: 20px;
+    
   }
 
 
   .text-activity {
     font-weight: 600;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 10px;
   }
 
@@ -515,11 +507,12 @@
   footer {
     display: flex;
     background-color: #F2F2F2;
-    padding: 50px 50px 50px 50px;
+    padding: 50px 0 50px 0;
 
-    width: 92%;
+    width: 100%;
+    height: 225;
     left: 48px;
-    top: 0px;
+    right: 3.68%;
     border-radius: 0px;
 
 
@@ -530,6 +523,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    margin-left: 55px;
   }
 
 
@@ -539,10 +533,7 @@
   }
 
 
-
-}
-
-@media (min-width:769px) and (max-width: 992px) {
+@media (max-width: 992px) {
 
   * {
     margin: 0;
@@ -554,7 +545,6 @@
   body {
     font-family: "Raleway", "sans-serif";
     max-width: 992px;
-    min-width: 780;
     width: 90%;
     margin: auto;
     font-style: normal;
@@ -873,7 +863,7 @@
   .accommodation-result img {
     object-fit: cover;
     height: 100px;
-    width: 100%;
+    width: 94%;
     border-radius: 20px 20px 0 0;
 
   }
@@ -891,7 +881,7 @@
 
   }
 
-  .accommodation-result h3 {
+ .show-plus p{
     width: 100%;
     margin-left: 10px;
     margin-bottom: 5px;
@@ -954,7 +944,6 @@
   .bloc-popular1 {
      display: flex;
     margin: auto;
-    margin-bottom: 30%;
     width: 100%;
     height: 70%;
 
@@ -1053,9 +1042,11 @@
 
 
   .text-activity {
-    font-weight: 600;
-    margin-left: 20px;
-    margin-top: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
   }
 
   /***************************************************************FOOTER************************************************************/
@@ -1090,7 +1081,7 @@
 
 }
 
-@media (min-width: 491px) and (max-width:768px) {
+@media (max-width:768px) {
 
   * {
     margin: 0;
@@ -1101,8 +1092,7 @@
 
   body {
     font-family: "Raleway", "sans-serif";
-    max-width: 992px;
-    min-width: 769;
+    max-width: 768px;
     width: 90%;
     margin: auto;
     font-style: normal;
@@ -1505,7 +1495,6 @@
   .bloc-popular1 {
      display: flex;
     margin: auto;
-    margin-bottom: 30%;
     width: 100%;
     height: 70%;
 
