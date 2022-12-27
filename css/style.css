@@ -187,7 +187,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #0065fc;
+    color: black;
     border: 2px solid #dfdede;
     border-radius: 30px;
     cursor: pointer;
@@ -202,9 +202,10 @@
 
   .filter-button i {
     padding-right: 5px;
+    color: #0065fc;
   }
 
-  .filter-button {
+  .filter-button{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -321,6 +322,8 @@
     gap: 20px;
 
   }
+  .accommodation-result h4 {
+   width: auto;}
 
 
   .accommodation-result img {
@@ -357,6 +360,7 @@
     font-size: 14px;
     padding: 0 8px;
     line-height: 19px;
+    
   }
 
   .accommodation-result .star {
@@ -403,17 +407,6 @@
     color: #0065fc;
   }
 
-  .popular-result .star {
-    color: #0065fc;
-    width: 12px;
-    height: 12px;
- padding: 0;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    margin: 50px 0 0 0;
-  }
-
 
   .popular-result .border-popular {
     border: 2px solid white;
@@ -423,6 +416,7 @@
     height: 120px;
     margin-bottom: 35px;
     display: flex;
+
     margin-left: 20px;
  
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
@@ -442,6 +436,20 @@
     padding: 0 8px;
     line-height: 19px;
     margin-top: 5px;
+    margin-bottom:0px ;
+    
+  }
+.popular-result h4{
+width: auto;
+}
+  .popular-result .star {
+    color: #0065fc;
+    width: 12px;
+    height: 12px;
+ padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    
   }
 
 
