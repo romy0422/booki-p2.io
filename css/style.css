@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
   * {
-    margin: 0 0 0 0;
+    margin: 0 0 0 0px;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
@@ -15,7 +15,8 @@
   body {
     font-family: "Raleway", "sans-serif";
     max-width: 1400px;
-    width: 100%;
+    width: 95%;
+    margin:auto;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -312,7 +313,7 @@
   .bloc1 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-bottom: 30px;
     width: 100%;
     gap: 20px;
