@@ -135,7 +135,7 @@
     display: flex;
     border: #f2f2f2 1px solid;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 14px;
   }
 
   .search-bar input::placeholder {
