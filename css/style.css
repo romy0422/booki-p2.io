@@ -474,6 +474,7 @@ width: auto;
   .bloc-card {
     display: flex;
     height: 500px;
+    margin-bottom: 50px;
     gap: 2%;
 
   }
@@ -486,17 +487,14 @@ width: auto;
   .activity-result img {
     object-fit: cover;
     width: 500px;
-    height: 445;
+    height: 445px;
     max-width: 100%;
     border-radius: 15px 15px 0 0;
     
 
   }
 
-  .picture-activity1 {
-    height: 400px;
-
-  }
+  
 
 
   .border-activity {
@@ -1016,12 +1014,6 @@ width: auto;
 
   }
 
-  .picture-activity1 {
-    height: 400px;
-
-  }
-
-
   .border-activity {
     border-radius: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
@@ -1033,6 +1025,7 @@ width: auto;
 
   .text-activity {
     font-weight: 600;
+    font-size: 16px;
     display: flex;
     justify-content:flex-start ;
     margin-left: 10px;
