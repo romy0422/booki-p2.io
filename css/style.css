@@ -561,7 +561,7 @@ width: auto;
     max-width: 992px;
     min-width: 768px;
     background-color: white;
-    width: 90%;
+    width: 95%;
   }
 
   /**************************************************************HEADER*****************************************************/
@@ -1083,7 +1083,7 @@ width: auto;
     font-family: "Raleway", "sans-serif";
     
     max-width: 768;
-  
+    width: 95%;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
