@@ -383,7 +383,7 @@ header .border-blue:hover {
 /* Popular Section */
 .popular-result {
   background: #F2F2F2;
-  width: 80%;
+  width: 40%;
   height: 550px;
   display: flex;
   border-radius: 20px;
