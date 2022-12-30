@@ -1127,7 +1127,6 @@ footer a {
 
 
 @media (max-width: 768px) {
-
   * {
     margin: 0 0 0 0px;
     padding: 0;
@@ -1138,8 +1137,9 @@ footer a {
   body {
     font-family: "Raleway", "sans-serif";
 
-    max-width: 768px;
-    width: 90%;
+    max-width: 490px;
+    min-width: 348px;
+    width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1417,9 +1417,10 @@ footer a {
   .section-global {
     margin-top: 25px;
     margin-bottom: auto;
-
+width: 100%;
     display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
     gap: 3%;
 
   }
@@ -1427,10 +1428,17 @@ footer a {
   .accommodation-result {
     flex: 1;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 50px;
     width: 100%;
-    background-color: white;
+    padding: 0px 15px;
+   width: 100%;
+    
+height: auto;
+        margin: auto;
+        margin-bottom: 30px;
   }
 
   .accommodation-result h2 {
@@ -1453,14 +1461,14 @@ footer a {
 
   .accommodation-result .border-picture {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: white;
-    width: 100%;
-    margin-bottom: 10%;
-    height: 199px;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
+        flex-direction: column;
+       width: auto;
+        background-color: white;
+        height: 230px;
+        margin-bottom: 2%;
+        width: 100%;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
   }
 
   .accommodation-result .show-plus {
@@ -1516,25 +1524,19 @@ footer a {
 
   .popular-result {
     background: #F2F2F2;
-    margin: 0 auto;
-    width: 100%;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
-
-
+    width: 100%;
+    height: auto;
+  
   }
 
-  .border-popular a {
 
-    width: 30%;
-    margin: auto 10px;
-  }
 
   .popular-result .title-graph {
-    margin: 0px 0px;
-    display: flex;
-    width: 100%;
+   
+    width: auto;
+    
   }
 
   .fa-chart-line {
@@ -1554,19 +1556,21 @@ footer a {
 
 
   .popular-result .border-popular {
-    border: 2px solid white;
-    border-radius: 20px;
-    background-color: white;
-
     display: flex;
     flex-direction: row;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
-
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
+    width: 250%;
+    border: 5px solid white;
+    height: 150px;
+    margin-top: 20px;
+    
   }
 
   .popular-result img {
     object-fit: cover;
-    height: 110px;
     width: 75px;
     border-radius: 20px 0 0 20px;
 
@@ -1602,9 +1606,8 @@ footer a {
   .bloc-card {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 150;
-    flex: 1;
+    width: auto;
+    height: auto;
 
   }
 
