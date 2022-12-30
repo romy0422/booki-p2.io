@@ -562,7 +562,6 @@ footer a {
     margin: 0px auto;
     font-family: 'Raleway', sans-serif;
     max-width: 992px;
-    min-width: 768px;
     background-color: white;
     width: 95%;
   }
@@ -968,7 +967,7 @@ footer a {
   
   .popular-result .text-picture {
     font-size: 14px;
-    padding: 0 8px;
+    margin-right: 20px;
     line-height: 19px;
     margin-top: 5px;
     margin-bottom: 0px;
@@ -1126,20 +1125,13 @@ footer a {
 }
 
 
-@media (max-width: 768px) {
-  * {
-    margin: 0 0 0 0px;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-  }
+@media  (max-width: 768px) {
 
   body {
     font-family: "Raleway", "sans-serif";
-
-    max-width: 490px;
-    min-width: 348px;
-    width: 100%;
+    max-width: 768px;
+    min-width: 491px;
+   
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1231,7 +1223,6 @@ footer a {
   /* Main */
 
   /* Search-bar */
-
   .search-bar .map {
     display: flex;
 
@@ -1417,7 +1408,7 @@ footer a {
   .section-global {
     margin-top: 25px;
     margin-bottom: auto;
-width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -1426,34 +1417,24 @@ width: 100%;
   }
 
   .accommodation-result {
-    flex: 1;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    flex-wrap: nowrap;
     gap: 50px;
     width: 100%;
-    padding: 0px 15px;
-   width: 100%;
-    
-height: auto;
-        margin: auto;
-        margin-bottom: 30px;
+    padding-right: 20px;
+    height: auto;
+    margin-bottom: 30px;
+    background-color: white;
   }
 
-  .accommodation-result h2 {
 
-    width: 90%;
-
-
-  }
 
 
   .accommodation-result img {
     object-fit: cover;
     height: 150px;
     width: 100%;
-
     border-radius: 20px 20px 0 0;
 
   }
@@ -1462,13 +1443,14 @@ height: auto;
   .accommodation-result .border-picture {
     display: flex;
         flex-direction: column;
-       width: auto;
+ 
         background-color: white;
+        width: 100%;
         height: 230px;
         margin-bottom: 2%;
-        width: 100%;
         border-radius: 20px 20px 20px 20px;
         box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
+        
   }
 
   .accommodation-result .show-plus {
@@ -1489,13 +1471,10 @@ height: auto;
 
   }
 
-  .accommodation-result h1 {
-    position: fixed;
-    top: 0;
-    width: 500px;
+  .accommodation-result h4 {
     margin-top: 0;
-    background: white;
-    padding: 10px;
+    line-height: 19px;
+
   }
 
   .accommodation-result .star {
@@ -1535,7 +1514,7 @@ height: auto;
 
   .popular-result .title-graph {
    
-    width: auto;
+    width: 90%
     
   }
 
@@ -1562,7 +1541,7 @@ height: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
-    width: 250%;
+    width: 425px;
     border: 5px solid white;
     height: 150px;
     margin-top: 20px;
@@ -1571,7 +1550,7 @@ height: auto;
 
   .popular-result img {
     object-fit: cover;
-    width: 75px;
+    width: 150px;
     border-radius: 20px 0 0 20px;
 
 
@@ -1579,11 +1558,15 @@ height: auto;
 
   .popular-result .text-picture {
     margin-top: 10px;
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 19px;
   }
 
   .popular-result .star {
-
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
     font-size: 15px;
   }
 
@@ -1597,24 +1580,29 @@ height: auto;
   .activity-result {
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 50px;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
+       
   }
 
   .bloc-card {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     height: auto;
 
   }
 
   .activity-result .card-column {
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    height: 211px;
+    height: auto;
     border: 0px solid rgb(255, 255, 255);
     border-radius: 20px 20px 0 0;
 
@@ -1622,7 +1610,7 @@ height: auto;
   }
 
   .activity-result img {
-    height: 150px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 
@@ -1644,11 +1632,12 @@ height: auto;
 
 
   .text-activity {
-    font-weight: 600;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 10px;
-    margin-top: 20px;
+    height: 50px;
+        width: auto;
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 16px;
+        Line-height: 18.78px;
   }
 
   /***************************************************************FOOTER************************************************************/
@@ -1659,7 +1648,7 @@ height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 95%;
+    width: auto;
     background-color: #F2F2F2;
     margin-top: 10%;
     margin-left: auto;
