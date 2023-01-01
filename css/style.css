@@ -323,7 +323,7 @@ header .border-blue:hover {
 
 }
 
-a {
+.accommodation-result a {
   flex: 25%;
   margin: 2% 30px;
   height: auto;
@@ -471,6 +471,11 @@ a {
   width: auto;
 }
 
+.activity-result a{
+  flex: 25%;
+  margin: 2% 30px;
+  height: auto;
+}
 .activity-result p {
 
   color: black;
