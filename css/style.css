@@ -324,9 +324,10 @@ header .border-blue:hover {
 }
 
 .accommodation-result a {
-  flex: 25%;
-  margin: 2% 30px;
-  height: auto;
+  height:auto;
+  margin-right: 15px;
+  flex:30%;
+  
 }
 
 .accommodation-result .border-picture {
@@ -866,7 +867,6 @@ footer a {
   .accommodation-result .border-picture {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: rgb(255, 255, 255);
     flex: 1;
     border: 5px solid white;
