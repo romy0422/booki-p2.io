@@ -1000,8 +1000,7 @@ footer a {
     color: #0065fc;
     width: 12px;
     height: 12px;
-
-    padding-bottom: 30px;
+    font-size: 15px;
     display: flex;
     flex-direction: row;
 
@@ -1023,10 +1022,6 @@ footer a {
     color: black
   }
 
-  .popular-result .star {
-
-    font-size: 15px;
-  }
 
   .popular-result .colorgrey {
     color: #d6d1d1;
@@ -1571,7 +1566,7 @@ padding-top: 64px;
     margin-top: 5px;
     padding-bottom: 15px;
     color: black;
-    white-space: nowrap;
+    
   }
 
   .popular-result .star {
