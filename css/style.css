@@ -302,7 +302,8 @@ header .border-blue:hover {
   background-color: rgb(235, 235, 235);
   border-radius: 20px 20px 20px 20px;
   height: 550px;
-  width: auto;
+  width: 100%;
+ 
 }
 
 
@@ -314,12 +315,6 @@ header .border-blue:hover {
 
 }
 
-
-.accommodation-result h4 {
-  width: auto;
-}
-
-
 .accommodation-result img {
   object-fit: cover;
   height: 90px;
@@ -328,6 +323,11 @@ header .border-blue:hover {
 
 }
 
+a {
+  flex: 25%;
+  margin: 2% 30px;
+  height: auto;
+}
 
 .accommodation-result .border-picture {
   display: flex;
@@ -337,7 +337,7 @@ header .border-blue:hover {
   box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
   margin-bottom: 20px;
   margin-left: 15px;
-  width: 30%;
+  width: auto;
   height: 160px;
 }
 
@@ -472,7 +472,7 @@ header .border-blue:hover {
 }
 
 .activity-result p {
- 
+
   color: black;
 }
 
@@ -912,7 +912,7 @@ footer a {
     height: 300px;
     display: flex;
     flex-direction: row;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     background-color: rgb(235, 235, 235);
     border-radius: 20px 20px 20px 20px;
     justify-content: space-evenly;
@@ -920,10 +920,12 @@ footer a {
     margin-bottom: 20px;
     border-radius: 20px 20px 20px 20px;
   }
-  .popular-result a{
+
+  .popular-result a {
     width: 30%;
-        margin: auto 10px;
+    margin: auto 10px;
   }
+
   .popular-result .title-graph {
     display: flex;
     align-items: baseline;
@@ -931,17 +933,19 @@ footer a {
     width: 100%;
     flex-direction: row;
   }
-  .popular-result h2{
+
+  .popular-result h2 {
     display: block;
-   width: 95%;
+    width: 95%;
 
   }
+
   .fa-chart-line {
     font-size: 25px;
     color: #0065fc;
   }
-  
-  
+
+
   .popular-result .border-popular {
     display: flex;
     flex-direction: row;
@@ -951,11 +955,11 @@ footer a {
     width: 90%;
     height: 144px;
     border: 5px solid white;
- 
+
     margin-bottom: 50px;
-  gap: 10px;
+    gap: 10px;
   }
-  
+
   .popular-result img {
     display: flex;
     object-fit: cover;
@@ -964,7 +968,7 @@ footer a {
     border-radius: 20px 0 0 20px;
     margin: 5px 0 5px 5px;
   }
-  
+
   .popular-result .text-picture {
     font-size: 14px;
     margin-right: 20px;
@@ -972,37 +976,37 @@ footer a {
     margin-top: 5px;
     margin-bottom: 0px;
     color: black;
-  
+
   }
-  
+
   .description-popular {
-  
+
     width: 169px;
     height: 60px;
     margin-bottom: 25px;
   }
-  
-  
+
+
   .popular-result .star {
     color: #0065fc;
     width: 12px;
     height: 12px;
-  
+
     padding-bottom: 30px;
     display: flex;
     flex-direction: row;
-  
+
   }
-  
-  
-  
+
+
+
   .popular-result .colorgrey {
     color: #d6d1d1;
     font-size: 80%;
   }
-  
-  
-  
+
+
+
 
   .popular-result .text-picture {
     margin-top: 10px;
@@ -1030,13 +1034,14 @@ footer a {
     flex-wrap: nowrap;
     gap: 2%;
 
-    
+
   }
 
   .activity-result p {
     margin: 0 0 0 0;
     color: black
   }
+
   .bloc-card {
     display: flex;
     flex-direction: row;
@@ -1088,10 +1093,10 @@ footer a {
     height: 25%;
     margin: 0 auto;
     white-space: pre-wrap;
-   padding-right: 20px ;
-   margin-left: 20px;
-   margin-bottom: 20px ;
-   align-items: center;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    align-items: center;
   }
 
   /***************************************************************FOOTER************************************************************/
@@ -1125,13 +1130,13 @@ footer a {
 }
 
 
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
 
   body {
     font-family: "Raleway", "sans-serif";
     max-width: 768px;
     min-width: 491px;
-   
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1300,7 +1305,7 @@ footer a {
   /* Filters */
   .button-icon {
     height: 40px;
-    width: 160px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1383,7 +1388,7 @@ footer a {
 
   .info-section h2 {
     margin-left: 10px;
-    font-size: 100%;
+    font-size: 17px;
     font-weight: 300;
     color: black;
   }
@@ -1422,7 +1427,6 @@ footer a {
     flex-direction: column;
     gap: 50px;
     width: 100%;
-    padding-right: 20px;
     height: auto;
     margin-bottom: 30px;
     background-color: white;
@@ -1442,15 +1446,15 @@ footer a {
 
   .accommodation-result .border-picture {
     display: flex;
-        flex-direction: column;
- 
-        background-color: white;
-        width: 100%;
-        height: 230px;
-        margin-bottom: 2%;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
-        
+    flex-direction: column;
+
+    background-color: white;
+    width: 100%;
+    height: 230px;
+    margin-bottom: 2%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
+
   }
 
   .accommodation-result .show-plus {
@@ -1507,15 +1511,14 @@ footer a {
     flex-direction: column;
     width: 100%;
     height: auto;
-  
+
   }
 
 
 
   .popular-result .title-graph {
-   
+
     width: 90%
-    
   }
 
   .fa-chart-line {
@@ -1545,7 +1548,7 @@ footer a {
     border: 5px solid white;
     height: 150px;
     margin-top: 20px;
-    
+
   }
 
   .popular-result img {
@@ -1557,17 +1560,22 @@ footer a {
   }
 
   .popular-result .text-picture {
-    margin-top: 10px;
     font-size: 16px;
+    margin-right: 20px;
     line-height: 19px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    color: black;
   }
 
   .popular-result .star {
-    padding: 0;
-    margin: 10px 0;
+    color: #0065fc;
+    width: 12px;
+    height: 12px;
+
+    padding-bottom: 30px;
     display: flex;
     flex-direction: row;
-    font-size: 15px;
   }
 
   .popular-result .colorgrey {
@@ -1580,13 +1588,13 @@ footer a {
   .activity-result {
 
     display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: auto;
-        height: auto;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
-       
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
+
   }
 
   .bloc-card {
@@ -1633,11 +1641,11 @@ footer a {
 
   .text-activity {
     height: 50px;
-        width: auto;
-        font-family: "Raleway";
-        font-weight: 700;
-        font-size: 16px;
-        Line-height: 18.78px;
+    width: auto;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    Line-height: 18.78px;
   }
 
   /***************************************************************FOOTER************************************************************/
