@@ -1186,7 +1186,9 @@ padding-top: 64px;
 
   header ul li {
     display: flex;
-
+    width: 100%;
+    
+    border-bottom: 3px solid #dce0e67c;
 
   }
 
@@ -1194,9 +1196,8 @@ padding-top: 64px;
 
 
   header .border-blue:hover {
-    border-bottom: 3px solid #0065fc;
-    color: #0065fc;
     
+    border-top: 3px solid #0065fc00;
 
   }
 
@@ -1286,7 +1287,7 @@ padding-top: 64px;
     width: 90px;
     display: block;
     flex: 0.5;
-
+   
   }
 
   .form-search {
