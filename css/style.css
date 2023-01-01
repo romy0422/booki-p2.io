@@ -1143,8 +1143,6 @@ footer a {
   body {
     font-family: "Raleway", "sans-serif";
     max-width: 768px;
-    min-width: 491px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1523,10 +1521,7 @@ padding-top: 64px;
 
   }
 
-
-
   .popular-result .title-graph {
-
     width: 90%
   }
 
@@ -1535,8 +1530,6 @@ padding-top: 64px;
     color: #0065fc;
   }
 
-
-
   .popular-result .border-popular {
     display: flex;
     flex-direction: row;
@@ -1544,7 +1537,7 @@ padding-top: 64px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
-    width: 425px;
+    width: 300px;
     border: 5px solid white;
     height: 150px;
     margin-top: 20px;
