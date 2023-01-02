@@ -8,7 +8,7 @@
 
 
 * {
-  margin: 0 0 0 0px;
+  margin: 0 0 0 0;
   padding: 0;
   list-style-type: none;
   text-decoration: none;
@@ -452,7 +452,7 @@ header .border-blue:hover {
   color: #0065fc;
   width: 12px;
   height: 12px;
-
+margin-left: 10px;
   padding-bottom: 30px;
   display: flex;
   flex-direction: row;
@@ -1152,6 +1152,7 @@ margin-left: 10px;
     width: 61px;
     height: 19px;
     margin: auto;
+    margin-bottom: 20px;
 padding-top: 64px;
   }
 
@@ -1168,6 +1169,8 @@ padding-top: 64px;
     flex: 1;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    border-bottom: 3px solid #dce0e67c;
   }
 
   header ul {
@@ -1180,8 +1183,6 @@ padding-top: 64px;
   header ul li {
     display: flex;
     width: 100%;
-    
-    border-bottom: 3px solid #dce0e67c;
 
   }
 
@@ -1238,6 +1239,7 @@ padding-top: 64px;
     justify-content: center;
     align-items: center;
     font-size: 100%
+    
   }
 
   .search-bar input {
@@ -1332,6 +1334,7 @@ padding-top: 64px;
     display: flex;
     width: 100%;
     flex-direction: column;
+    align-items: center;
     gap: 5px;
 
 
@@ -1341,6 +1344,7 @@ padding-top: 64px;
     display: flex;
     width: 100%;
     flex-direction: column;
+    align-items: center;
     gap: 5px;
   }
 
@@ -1523,18 +1527,24 @@ padding-top: 64px;
     color: #0065fc;
   }
 
+.popular-result a{
+  width: 80%;
+    margin: auto;
+    max-width: 500px;
+}
+
   .popular-result .border-popular {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
-    width: 300px;
+    width: 100%;
+    min-width: 230px;
+    height: 144px;
     border: 5px solid white;
-    height: 150px;
-    margin: auto 0 30px 0;
-    justify-content: center;
+    margin: 20px auto;
+    
 
   }
 
