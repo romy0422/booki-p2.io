@@ -318,7 +318,7 @@ header .border-blue:hover {
 
 .accommodation-result img {
   object-fit: cover;
-  height: 90px;
+  height: 120px;
   width: 100%;
   border-radius: 20px 20px 0 0;
 
@@ -340,7 +340,7 @@ header .border-blue:hover {
   margin-bottom: 20px;
   margin-left: 15px;
   width: auto;
-  height: 160px;
+  height: 185px;
 }
 
 .accommodation-result .show-plus {
