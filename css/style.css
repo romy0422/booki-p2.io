@@ -877,11 +877,8 @@ footer a {
   .accommodation-result .show-plus {
     width: 100%;
     margin-left: 20px;
-    margin-bottom: 50px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 21px;
-
   }
 
   .accommodation-result .text-picture {
@@ -942,8 +939,8 @@ footer a {
     flex-direction: row;
   }
 
-  .popular-result h3 {
-    
+  .popular-result p {
+    white-space: nowrap;
 
   }
 
