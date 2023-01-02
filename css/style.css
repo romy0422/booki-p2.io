@@ -196,7 +196,7 @@ header .border-blue:hover {
   background-color: white;
   margin: 0 5px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1px;
   line-height: 20px;
   text-align: center;
 
@@ -318,7 +318,7 @@ header .border-blue:hover {
 
 .accommodation-result img {
   object-fit: cover;
-  height: 120px;
+  height: 110px;
   width: 100%;
   border-radius: 20px 20px 0 0;
 
@@ -355,7 +355,8 @@ header .border-blue:hover {
 
 .accommodation-result .text-picture {
   font-size: 14px;
-  padding: 0 8px;
+  padding: 0 10px;
+  margin-top: 10px;
   line-height: 19px;
   color: black;
 }
