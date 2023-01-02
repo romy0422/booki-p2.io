@@ -480,8 +480,7 @@ margin-left: 10px;
   margin: 2% 30px;
   height: auto;
 }
-.activity-result p {
-
+.activity-result h3 {
   color: black;
 }
 
@@ -508,8 +507,6 @@ margin-left: 10px;
 }
 
 
-
-
 .border-activity {
   border-radius: 15px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
@@ -523,7 +520,7 @@ margin-left: 10px;
   font-weight: 600;
   display: flex;
   justify-content: flex-start;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: 20px;
 }
 
@@ -532,11 +529,14 @@ margin-left: 10px;
 /* Footer */
 
 footer {
-  display: flex;
+
   background-color: #F2F2F2;
   padding: 50px 0 50px 0;
   width: 100%;
   border-radius: 0px;
+  display: flex;
+  padding: 50 50px;
+
 
 
 }
@@ -546,8 +546,8 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  margin-left: 20px;
-  padding-left: 10px;
+  
+  padding-left: 50px;
 }
 
 
