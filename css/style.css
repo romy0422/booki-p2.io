@@ -1251,7 +1251,7 @@ padding-top: 64px;
 
   .search-bar input {
     height: 50px;
-    width: 230px;
+    width: 260px;
     display: flex;
     border: #f2f2f2 1px solid;
     font-weight: 600;
@@ -1262,6 +1262,8 @@ padding-top: 64px;
     color: black;
     padding-left: 20px;
     opacity: 1;
+    display: flex;
+    width: 100%;
   }
 
   .search-bar .search {
@@ -1294,6 +1296,7 @@ padding-top: 64px;
 
   .form-search {
     display: flex;
+   
   }
 
   .search-bar h1 {
