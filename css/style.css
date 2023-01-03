@@ -520,7 +520,7 @@ margin-left: 10px;
   font-weight: 600;
   display: flex;
   justify-content: flex-start;
-  margin-left: 20px;
+  margin-left: 50px;
   margin-top: 20px;
 }
 
@@ -531,23 +531,21 @@ margin-left: 10px;
 footer {
 
   background-color: #F2F2F2;
-  padding: 50px 0 50px 0;
+  padding: 50px 0;
   width: 100%;
   border-radius: 0px;
   display: flex;
-  padding: 50 50px;
-
+justify-content: space-around;
 
 
 }
 
+
 .section-footer {
-  flex: 1;
+ 
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  
-  padding-left: 50px;
 }
 
 
@@ -833,7 +831,7 @@ footer a {
 
   .section-global {
     margin-top: 25px;
-
+height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -847,7 +845,7 @@ footer a {
     flex-wrap: wrap;
     background-color: rgb(235, 235, 235);
     border-radius: 20px 20px 20px 20px;
-    height: 550px;
+    
     width: 100%;
   }
   .accommodation-result a {
@@ -968,10 +966,10 @@ footer a {
   .popular-result img {
     display: flex;
     object-fit: cover;
-    height: 135px;
-    width: 70px;
+    height: 145px;
+    width: 100px;
     border-radius: 20px 0 0 20px;
-    margin: 5px 0 5px 5px;
+    margin: 0 0 0 0;
   }
 
   .popular-result .text-picture {
@@ -979,15 +977,10 @@ footer a {
     padding: 0 8px;
     line-height: 14px;
     color: black;
-    height: 120px;
-    
-
-  }
-
-  .description-popular {
-    width: 100px;
-    height: 60px;
+    height: 100px;
+    width: 100%;
     margin-bottom: 25px;
+
   }
 
 
@@ -1068,11 +1061,6 @@ margin-left: 10px;
 
   }
 
-  .picture-activity1 {
-    height: 200px;
-    width: 100%;
-  }
-
 
   .border-activity {
     border-radius: 15px;
@@ -1090,8 +1078,7 @@ margin-left: 10px;
     justify-content: flex-start;
     margin-left: 10px;
     height: 25%;
-    margin: 0 auto;
-    white-space: pre-wrap;
+    margin: 0 0 20; 
     padding-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -1105,8 +1092,9 @@ margin-left: 10px;
   footer {
     display: flex;
     background-color: #F2F2F2;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0 0;
     width: 100%;
+    margin-top: 100px;
     border-radius: 0px;
 
 
@@ -1335,7 +1323,7 @@ padding-top: 64px;
   .filters-section .bloc-button1 {
     display: flex;
     width: 100%;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     gap: 5px;
 
@@ -1435,10 +1423,8 @@ padding-top: 64px;
 
 
   .accommodation-result a {
-    flex: 1;
-    margin: auto;
     width: 100%;
-    height: auto;
+    margin: auto;
   }
 
   .accommodation-result img {
@@ -1446,6 +1432,10 @@ padding-top: 64px;
     height: 150px;
     width: 100%;
     border-radius: 20px 20px 0 0;
+
+  }
+
+  .accommodation-result .bloc-card{
 
   }
 
@@ -1542,11 +1532,11 @@ padding-top: 64px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
     width: 100%;
-    min-width: 230px;
+    min-width: 300px;
     height: 144px;
     border: 5px solid white;
     margin: 20px auto;
-    
+
 
   }
 
@@ -1569,7 +1559,7 @@ padding-top: 64px;
     margin-right: 20px;
     line-height: 19px;
     margin-top: 5px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     color: black;
     
   }
@@ -1580,6 +1570,7 @@ padding-top: 64px;
     height: 12px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
   }
 
   .popular-result .colorgrey {
@@ -1604,6 +1595,8 @@ padding-top: 64px;
     flex-direction: column;
     width: 100%;
     height: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
 
   }
 
@@ -1626,13 +1619,17 @@ padding-top: 64px;
 
   }
 
-  
+  .activity-result a{
+margin: auto;
+    width: 100%;
+  }
 
 
   .border-activity {
     border-radius: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     height: 500px;
+   
     padding-bottom: 20px;
 
   }
