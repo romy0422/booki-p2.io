@@ -947,6 +947,8 @@ height: auto;
   .fa-chart-line {
     font-size: 25px;
     color: #0065fc;
+    width: 100%;
+    margin-left: 85%;
   }
 
 
@@ -977,8 +979,6 @@ height: auto;
     padding: 0 8px;
     line-height: 14px;
     color: black;
-    height: 100px;
-    width: 100%;
     margin-bottom: 25px;
 
   }
