@@ -1145,11 +1145,11 @@ margin-bottom: 50px;
 
   body {
     font-family: "Raleway", "sans-serif";
-    max-width: 767px;
+    max-width: 768px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    padding: 0px 0px;
+    margin-left: 30px;
    
   }
 
@@ -1534,29 +1534,27 @@ padding-left: 10px;
   }
 
   .popular-result .title-graph {
+    margin: 0px 0px;
+    padding-top: 40px;
     width: 100%;
-    margin-left: 50px;
-  
   }
-.popular-result h3{
 
-  font-size: 16px;
-}
 
 .popular-result p{
   white-space: nowrap;
 }
   .fa-chart-line {
-    font-size: 15px;
-    color: #0065fc;
-
+    display: flex;
+    align-items: baseline;
+    width: 90%;
+    margin: auto 30px;
+    box-sizing: border-box;
   }
 
 .bloc-cardpop{
-  width: 100%;
+  width: auto;
 display: flex;
 flex-direction: column;
-margin: 20px 0 0 20px
 }
 
   .popular-result a{
@@ -1564,7 +1562,7 @@ margin: 20px 0 0 20px
     display: flex;
 flex-direction: column;
 justify-content: center;
-width: 100%;
+width: auto;
 height: auto;
 border-radius: 15px;
 padding-bottom: 20px;
@@ -1578,7 +1576,7 @@ padding-bottom: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
-    width: 320px;
+    width: 300px;
     min-width: 300px;
     height: 144px;
     border: 5px solid white;
