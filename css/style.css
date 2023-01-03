@@ -159,9 +159,6 @@ header .border-blue:hover {
   border: none;
 }
 
-.fa-magnifying-glass {
-  
-}
 
 .glass {
   display: none;
@@ -287,8 +284,6 @@ header .border-blue:hover {
 
 .section-global {
   margin-top: 25px;
-
-  width: 100%;
   display: flex;
   gap: 3%;
 
@@ -296,12 +291,12 @@ header .border-blue:hover {
 
 .accommodation-result {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: rgb(235, 235, 235);
-  border-radius: 20px 20px 20px 20px;
-  height: 550px;
-  width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px 20px 20px 20px;
  
 }
 
@@ -350,6 +345,18 @@ header .border-blue:hover {
   font-size: 14px;
   line-height: 21px;
 
+}
+
+.accommodation-result .bloc-card-acc{
+
+ display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px 20px 20px 20px;
+  
 }
 
 .accommodation-result .text-picture {
@@ -434,7 +441,6 @@ header .border-blue:hover {
   padding: 0 8px;
   line-height: 19px;
   margin-top: 5px;
-  margin-bottom: 0px;
   color: black;
 
 }
@@ -455,7 +461,7 @@ header .border-blue:hover {
   width: 12px;
   height: 12px;
 margin-left: 10px;
-  padding-bottom: 30px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
 
@@ -1530,7 +1536,20 @@ padding-top: 64px;
   .fa-chart-line {
     font-size: 15px;
     color: #0065fc;
+
   }
+
+  .popular-result a{
+
+    display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+height: auto;
+border-radius: 15px;
+padding-bottom: 20px;
+}
+  
 
 
   .popular-result .border-popular {
@@ -1552,6 +1571,7 @@ padding-top: 64px;
 
   .popular-result img {
     object-fit: cover;
+    display: flex;
     width: 150px;
     border-radius: 20px 0 0 20px;
 
