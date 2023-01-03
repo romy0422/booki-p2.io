@@ -1621,6 +1621,13 @@ padding-bottom: 20px;
     height: auto;
 
   }
+  .activity-result h2{
+    flex-direction: column;
+    display: flex;
+    font-size: 22px;
+    width: 55%;
+    height: 80px;
+  }
 
   .bloc-card {
     display: flex;
@@ -1628,8 +1635,6 @@ padding-bottom: 20px;
     width: 100%;
     height: auto;
     margin-bottom: 50px;
-    margin-top: 50px;
-
   }
 
   .activity-result .card-column {
