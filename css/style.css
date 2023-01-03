@@ -952,7 +952,6 @@ height: auto;
 
   .popular-result p {
     white-space: nowrap;
-
   }
 
   .fa-chart-line {
@@ -986,12 +985,11 @@ height: auto;
   }
 
   .popular-result .text-picture {
+    flex-direction: column;
+    display: flex;
     font-size: 14px;
-    padding: 0 8px;
-    line-height: 14px;
-    color: black;
-    margin-bottom: 25px;
-
+    width: 55%;
+    height: 80px;
   }
 
 
@@ -1003,6 +1001,7 @@ height: auto;
     display: flex;
     flex-direction: row;
 margin-left: 10px;
+margin-bottom: 50px;
   }
 
 
