@@ -537,12 +537,14 @@ margin-left: 10px;
 
 footer {
 
-  background-color: #F2F2F2;
-  padding: 50px 0;
-  width: 100%;
-  border-radius: 0px;
   display: flex;
-justify-content: space-around;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #F2F2F2;
+  padding: 20px 50px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+  
 
 
 }
@@ -550,9 +552,11 @@ justify-content: space-around;
 
 .section-footer {
  
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  flex: 1;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin-left: 50px;
 }
 
 
