@@ -196,7 +196,7 @@ header .border-blue:hover {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-
+margin-left: 30px;
 }
 
 .filter-button i {
@@ -208,19 +208,22 @@ header .border-blue:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  gap: 2%;
+  
 }
 
 .filters-section .bloc-button1 {
   display: flex;
   width: 100%;
   flex-direction: row;
-
+  gap: 2%;
 }
 
 .filters-section .bloc-button2 {
   display: flex;
   width: 100%;
   flex-direction: row;
+  gap: 2%;
 }
 
 .button-icon:hover {
@@ -235,10 +238,10 @@ header .border-blue:hover {
   padding-right: 5px;
 }
 
-.filters-section>h3 {
+.filters-section h3 {
   margin-right: 10px;
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .filters-section p {
