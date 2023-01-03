@@ -1232,30 +1232,32 @@ padding-top: 64px;
   /* Main */
 
   /* Search-bar */
-  .search-bar .map {
-    display: flex;
 
-  }
+.form-search{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  appearance: none;
+  width: 100%;
+  height: auto;
+
+}
+
 
   .search-bar .fa-map-marker-alt {
-    background-color: #F2F2F2;
-    border-radius: 10px 0 0 10px;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100%
-    
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #F2F2F2;
+    flex: 0.5;
+    width: auto;
   }
 
   .search-bar input {
-    height: 50px;
-    width: 260px;
-    display: flex;
-    border: #f2f2f2 1px solid;
-    font-weight: 600;
-    font-size: 100%;
+    border: 1px solid #F2F2F2;
+    flex: 2;
+    color: rgb(15, 14, 14);
+    padding: 10px;
+    width: 100%;
+    height: auto;
   }
 
   .search-bar input::placeholder {
@@ -1269,7 +1271,7 @@ padding-top: 64px;
   .search-bar .search {
     border-radius: 0 10px 10px 0;
     height: 50px;
-    width: 120px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1291,13 +1293,10 @@ padding-top: 64px;
     width: 90px;
     display: block;
     flex: 0.5;
-   
+    font-weight: 900;
   }
+   
 
-  .form-search {
-    display: flex;
-   
-  }
 
   .search-bar h1 {
     margin-top: 25px;
@@ -1311,21 +1310,39 @@ padding-top: 64px;
 
 
   /* Filters */
-  .button-icon {
-    height: 40px;
+
+  .form-button{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    border: 2px solid #dfdede;
-    border-radius: 30px;
-    cursor: pointer;
-    background-color: white;
-    margin: 0 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+    height: auto;
+
+
+
+  }
+
+  .label-filtre{
+    width: 100%;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+  }
+
+
+  .button-icon {
+  border: 2px solid #f2f2f2;
+border-radius: 20px;
+background-color: white;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+width: 50%;
+min-width: 150px;
+height: 50px;
+margin: 10px 0;
+gap: 5px;
+margin-left: 20px;
+justify-content: flex-start;
+padding-left: 10px;
 
   }
 
@@ -1338,10 +1355,8 @@ padding-top: 64px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    display: flex;
     width: 100%;
     flex-direction: column;
-    align-items: center;
     gap: 5px;
   }
 
@@ -1353,26 +1368,14 @@ padding-top: 64px;
   }
 
   .filters-section {
+    margin-top: 30px;
     display: flex;
-    margin-top: 20px;
-    justify-content: flex-start;
-    flex-direction: column;
-
-    padding-right: 5px;
+    flex-wrap: wrap;
+    width: 90%;
+    min-width: 300px;
+    justify-content: space-between;
   }
 
-  .filters-section>h3 {
-    margin-right: 10px;
-    margin-top: 15px;
-    font-size: 14px;
-  }
-
-  .filters-section p {
-    font-weight: 600;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-  }
 
 
   /* Infos */
@@ -1420,14 +1423,15 @@ padding-top: 64px;
   }
 
   .accommodation-result {
+    order: 2;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    gap: 50px;
+    flex-wrap: wrap;
     width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-    background-color: white;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 20px 20px 20px 20px;
   }
 
 
@@ -1457,12 +1461,15 @@ padding-top: 64px;
   .accommodation-result .border-picture {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    height: 230px;
-    width: 95%;
-    margin: 2% auto;
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
 
   }
 
@@ -1500,11 +1507,6 @@ padding-top: 64px;
     flex-direction: row;
 
 
-  }
-
-  .accommodation-result .colorblue {
-    color: #0065fc;
-    display: inline-block;
   }
 
   .accommodation-result .colorgrey {
