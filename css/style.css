@@ -1563,8 +1563,8 @@ padding-top: 64px;
 
   .popular-result .text-picture {
     line-height: 19px;
-    margin-top: 20px;
-    padding-bottom: 5px;
+    margin-top: 50px;
+   
     color: black;
     
   }
@@ -1575,7 +1575,7 @@ padding-top: 64px;
     height: 12px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-top: 60px;
   }
 
   .popular-result .colorgrey {
