@@ -445,15 +445,12 @@ margin-left: 30px;
   line-height: 19px;
   margin-top: 5px;
   color: black;
-
-}
-
-.description-popular {
-
   width: 169px;
   height: 60px;
   margin-bottom: 25px;
+
 }
+
 
 .popular-result h4 {
   width: auto;
@@ -463,10 +460,11 @@ margin-left: 30px;
   color: #0065fc;
   width: 12px;
   height: 12px;
-margin-left: 10px;
+
   margin-top: 50px;
   display: flex;
   flex-direction: row;
+
 
 }
 
