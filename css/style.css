@@ -208,7 +208,7 @@ margin-left: 30px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 2%;
+  gap: 0.5%;
   
 }
 
@@ -216,14 +216,14 @@ margin-left: 30px;
   display: flex;
   width: 100%;
   flex-direction: row;
-  gap: 2%;
+  gap: 0.5%;
 }
 
 .filters-section .bloc-button2 {
   display: flex;
   width: 100%;
   flex-direction: row;
-  gap: 2%;
+  gap: 00.5%;
 }
 
 .button-icon:hover {
