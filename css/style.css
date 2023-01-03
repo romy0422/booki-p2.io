@@ -937,6 +937,7 @@ height: auto;
     padding: 0 30px;
     width: 100%;
     flex-direction: row;
+    white-space: nowrap;
   }
 
   .popular-result p {
@@ -947,8 +948,7 @@ height: auto;
   .fa-chart-line {
     font-size: 25px;
     color: #0065fc;
-    width: 100%;
-    margin-left: 80%;
+    margin-left: 70%;
   }
 
 
