@@ -1520,6 +1520,7 @@ padding-left: 10px;
 
   /* Popular Section */
 
+
   .popular-result {
    
     background: #F2F2F2;
@@ -1548,6 +1549,15 @@ padding-left: 10px;
     color: #0065fc;
 
   }
+
+.bloc-cardpop{
+  width: 100%;
+display: flex;
+flex-direction: column;
+background-color: rgb(235, 235, 235);
+justify-content: center;
+margin: 20px auto;
+}
 
   .popular-result a{
 
@@ -1616,6 +1626,7 @@ padding-bottom: 20px;
     color: #d6d1d1;
     font-size: 600;
   }
+
 
 
   /*Activity Section*/
