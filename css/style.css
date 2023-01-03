@@ -1065,6 +1065,11 @@ margin-left: 10px;
 
   }
 
+  .activity-result a{
+    height: 500px;
+    width: 50%;
+  }
+
 
   .border-activity {
     border-radius: 15px;
@@ -1185,7 +1190,9 @@ padding-top: 64px;
 
   header .border-blue:hover {
     
-    border-top: 3px solid #0065fc00;
+    border-top: none;
+    border-bottom: 4px solid #0065fc;
+ 
 
   }
 
@@ -1504,19 +1511,23 @@ padding-top: 64px;
   }
 
   .popular-result .title-graph {
-    width: 90%
+    width: 100%;
+    margin-left: 50px;
+  
   }
+.popular-result h3{
 
+  font-size: 16px;
+}
+
+.popular-result p{
+  white-space: nowrap;
+}
   .fa-chart-line {
     font-size: 15px;
     color: #0065fc;
   }
 
-.popular-result a{
-  width: 80%;
-    margin: auto;
-    max-width: 500px;
-}
 
   .popular-result .border-popular {
     display: flex;
@@ -1524,11 +1535,13 @@ padding-top: 64px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
-    width: 100%;
+    width: 315px;
     min-width: 300px;
     height: 144px;
     border: 5px solid white;
     margin: 20px auto;
+    align-items: center;
+    justify-content: center;
 
 
   }
@@ -1542,16 +1555,15 @@ padding-top: 64px;
   }
 
   .popular-result p {
+    font-size: 14px;
   white-space: normal;
   } 
   
   
 
   .popular-result .text-picture {
-    font-size: 16px;
-    margin-right: 20px;
     line-height: 19px;
-    margin-top: 5px;
+    margin-top: 20px;
     padding-bottom: 5px;
     color: black;
     
