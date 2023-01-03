@@ -1435,8 +1435,14 @@ padding-top: 64px;
 
   }
 
-  .accommodation-result .bloc-card{
-
+  .accommodation-result .bloc-card-acc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  
   }
 
 
