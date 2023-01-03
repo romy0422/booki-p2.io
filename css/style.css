@@ -1441,7 +1441,6 @@ padding-top: 64px;
     width: 100%;
     height: auto;
     margin-bottom: 50px;
-    margin-top: 50px;
   
   }
 
@@ -1449,7 +1448,6 @@ padding-top: 64px;
   .accommodation-result .border-picture {
     display: flex;
     flex-direction: column;
-
     background-color: white;
     height: 230px;
     width: 95%;
