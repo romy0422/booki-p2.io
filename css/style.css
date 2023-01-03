@@ -944,7 +944,11 @@ height: auto;
     width: 30%;
     margin: auto 10px;
   }
-
+  .bloc-cardpop{
+    width: auto;
+  display: flex;
+  flex-direction: row;
+  }
   .popular-result .title-graph {
     display: flex;
     align-items: baseline;
@@ -1138,9 +1142,11 @@ margin-bottom: 50px;
 
 @media (max-width: 768px) {
 
-  html {
-    margin: 0;
-   
+  * {
+    margin: 0 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
   }
 
   body {
@@ -1149,8 +1155,7 @@ margin-bottom: 50px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    margin-left: 30px;
-   
+   width: 100%;
   }
 
 
