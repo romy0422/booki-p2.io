@@ -944,11 +944,7 @@ height: auto;
     width: 30%;
     margin: auto 10px;
   }
-  .bloc-cardpop{
-    width: auto;
-  display: flex;
-  flex-direction: row;
-  }
+  
   .popular-result .title-graph {
     display: flex;
     align-items: baseline;
@@ -1421,7 +1417,7 @@ padding-left: 10px;
     font-size: 81%;
     display: flex;
 justify-content: center;
-flex-grow: 1;
+flex-direction: column;
   }
 
   .section-global {
@@ -1597,6 +1593,7 @@ flex-grow: 1;
 
   }
 
+
   .popular-result p {
     font-size: 14px;
   white-space: normal;
@@ -1622,7 +1619,7 @@ flex-grow: 1;
     height: 12px;
     display: flex;
     flex-direction: row;
-    margin-top: 80px;
+    margin-top: 70px;
   }
 
   .popular-result .colorgrey {
