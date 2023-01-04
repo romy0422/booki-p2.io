@@ -1037,16 +1037,21 @@ footer a {
     padding: 0;
     list-style-type: none;
     text-decoration: none;
+    box-sizing: border-box;
+    
   }
+
+ 
+  
 
   body {
     font-family: "Raleway", "sans-serif";
-    max-width: 768px;
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     width: 100%;
-    margin: auto;
+    margin: 0px auto;
   }
 
   /**************************************************************HEADER*****************************************************/
