@@ -942,7 +942,7 @@ height: auto;
   }
 
   .popular-result a {
-    width: 30%;
+    width: 29%;
     margin: auto 10px;
   }
   
@@ -958,6 +958,15 @@ height: auto;
   .popular-result p {
     white-space: nowrap;
   }
+
+  .popular-result a{
+    display: flex;
+    align-items: baseline;
+    width: auto;
+    margin: auto;
+    box-sizing:border-box;
+    
+}
 
   .fa-chart-line {
     font-size: 25px;
@@ -976,12 +985,12 @@ height: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
-    width: 100%;
+    width: 95%;
     height: 144px;
     border: 5px solid white;
     margin: 20px 0 20px auto;
     margin-bottom: 50px;
-  
+
   }
 
   .popular-result img {
