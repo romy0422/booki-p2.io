@@ -68,6 +68,11 @@ header .border-blue:hover {
   padding-top: 20px;
 }
 
+header a {
+  text-decoration: none;
+  color: blue;
+ }
+
 .title-head {
   margin-top: 40px;
 }
@@ -563,6 +568,11 @@ footer a {
     color: #0065fc;
     padding-top: 20px;
   }
+
+  header a {
+    text-decoration: none;
+    color: blue;
+   }
 
   .title-head {
     margin-top: 40px;
@@ -1093,6 +1103,11 @@ footer a {
     display: flex;
     width: 100%;
   }
+
+  header a {
+    text-decoration: none;
+    color: blue;
+   }
 
   header .border-blue:hover {
     border-top: none;
