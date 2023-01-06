@@ -1053,7 +1053,7 @@ footer a {
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    box-sizing: border-box;
+    box-sizing:border-box;
     
   }
 
@@ -1069,6 +1069,7 @@ footer a {
     width: 100%;
     margin: 0px auto;
     height:auto;
+    
   }
 
   /**************************************************************HEADER*****************************************************/
@@ -1431,7 +1432,7 @@ footer a {
   }
 
   .popular-result .title-graph {
-    margin: auto auto 20px 20px;
+    margin: auto auto 20px;
     padding: 40px 40px 0px 40px;
     width: 100%;
     justify-content: space-between;
