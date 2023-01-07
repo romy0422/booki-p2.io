@@ -17,7 +17,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   padding: 0px 0px;
-  height:auto;
+  height: auto;
 }
 
 /**************************************************************HEADER*****************************************************/
@@ -69,13 +69,13 @@ header .border-blue:hover {
 header a {
   text-decoration: none;
   color: black;
- }
+}
 
 .title-head {
   margin: 40px 0px;
 }
 
-.title-head > p {
+.title-head>p {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -85,7 +85,7 @@ header a {
   line-height: 26px;
 }
 
-.title-head > h1 {
+.title-head>h1 {
   display: flex;
   justify-content: space-between;
   font-family: "Raleway";
@@ -101,7 +101,7 @@ header a {
 
 .search-bar .map {
   display: flex;
-  margin:40px 0px;
+  margin: 40px 0px;
 }
 
 .search-bar .fa-map-marker-alt {
@@ -271,6 +271,7 @@ header a {
   gap: 3%;
 }
 
+/*Accommodation*/
 .accommodation-result {
   display: flex;
   flex-direction: row;
@@ -363,7 +364,7 @@ header a {
 .popular-result {
   background: #f2f2f2;
   width: 40%;
-  height: 570px;
+  height: 580px;
   display: flex;
   border-radius: 20px;
   flex-direction: column;
@@ -446,6 +447,7 @@ header a {
   margin: 2% 30px;
   height: auto;
 }
+
 .activity-result h3 {
   color: black;
 }
@@ -526,7 +528,7 @@ footer a {
     max-width: 992px;
     background-color: white;
     width: 95%;
-    height:auto;
+    height: auto;
   }
 
   /**************************************************************HEADER*****************************************************/
@@ -576,13 +578,13 @@ footer a {
   header a {
     text-decoration: none;
     color: black;
-   }
+  }
 
   .title-head {
     margin-top: 50px;
   }
 
-  .title-head > p {
+  .title-head>p {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -722,7 +724,7 @@ footer a {
     padding-right: 5px;
   }
 
-  .filters-section > h3 {
+  .filters-section>h3 {
     margin-right: 10px;
     margin-top: 15px;
     font-size: 14px;
@@ -787,6 +789,7 @@ footer a {
   .accommodation-result h2 {
     margin-left: 25px;
   }
+
   .accommodation-result a {
     flex: 25%;
     margin: 10px 20px;
@@ -869,7 +872,7 @@ footer a {
     align-items: baseline;
     flex-direction: row;
     white-space: nowrap;
-    width:95%;
+    width: 95%;
   }
 
   .popular-result p {
@@ -1030,7 +1033,7 @@ footer a {
   }
 
   .section-footer {
-       flex: 1;
+    flex: 1;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -1050,12 +1053,12 @@ footer a {
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    box-sizing:border-box;
-    
+    box-sizing: border-box;
+
   }
 
- 
-  
+
+
 
   body {
     font-family: "Raleway", "sans-serif";
@@ -1065,8 +1068,8 @@ footer a {
     font-size: 14px;
     width: 100%;
     margin: 0px auto;
-    height:auto;
-    
+    height: auto;
+
   }
 
   /**************************************************************HEADER*****************************************************/
@@ -1111,7 +1114,7 @@ footer a {
   header a {
     text-decoration: none;
     color: black;
-   }
+  }
 
   header .border-blue:hover {
     border-top: none;
@@ -1266,13 +1269,13 @@ footer a {
     gap: 5px;
   }
 
-  .bloc-button1{
+  .bloc-button1 {
     justify-content: space-between;
-    
+
   }
 
-  .bloc-button2{
-  justify-content: space-between;
+  .bloc-button2 {
+    justify-content: space-between;
   }
 
   .button-icon:hover {
@@ -1438,6 +1441,7 @@ footer a {
   .popular-result p {
     white-space: nowrap;
   }
+
   .fa-chart-line {
     display: flex;
     align-items: baseline;
@@ -1495,6 +1499,7 @@ footer a {
     height: 40px;
     margin: 5px;
   }
+
   .popular-result .star {
     color: #0065fc;
     width: 12px;
@@ -1515,8 +1520,9 @@ footer a {
     width: auto;
     height: auto;
     justify-content: space-evenly;
-    
+
   }
+
   .activity-result h2 {
     flex-direction: column;
     display: flex;
@@ -1532,7 +1538,7 @@ footer a {
     width: 100%;
     height: auto;
     padding: 0px 10% 0px 10%;
-    gap:0;
+    gap: 0;
   }
 
   .activity-result .card-column {
