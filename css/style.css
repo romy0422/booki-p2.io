@@ -875,10 +875,6 @@ footer a {
     width: 95%;
   }
 
-  .popular-result p {
-    white-space: nowrap;
-  }
-
   .popular-result a {
     display: flex;
     align-items: baseline;
@@ -928,6 +924,7 @@ footer a {
     font-size: 14px;
     width: 90%;
     height: 80px;
+    
   }
 
   .popular-result .star {
