@@ -11,6 +11,7 @@
 body {
   font-family: "Raleway", "sans-serif";
   max-width: 1400px;
+  min-width: 993px;
   width: 95%;
   margin: auto;
   font-style: normal;
@@ -282,10 +283,9 @@ header a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
-  Width:880px;
-Height:525px;
-  justify-content: space-around;
+  Width:100%;
+Height:560px;
+  justify-content: center;
   background-color: rgb(235, 235, 235);
   border-radius: 20px 20px 20px 20px;
 }
@@ -314,27 +314,28 @@ Height:525px;
 
 .accommodation-result a {
   height: auto;
+  width: auto;
   margin-right: 15px;
   flex: 30%;
+  margin-bottom: 20px;
 }
 
 .accommodation-result .border-picture {
-
+  
   display: flex;
   flex-direction: column;
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 0px 5px 20px rgb(0 0 0 / 27%);
-  margin-bottom: 20px;
-  margin-left: 12px;
-  width: 90%;
-  max-width: 186px;
+  margin-left: 8px;
+  width: auto;
+  max-width: 195px;
   height: 180px;
   border: 5px solid white;
 }
 
 .accommodation-result .show-plus {
-  width: 100%;
+  width: 90%;
   margin-left: 20px;
   margin-bottom: 50px;
   font-weight: 700;
@@ -347,6 +348,8 @@ Height:525px;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  max-width: 645px;
+  margin-bottom: 20px;
   justify-content: space-around;
   background-color: rgb(235, 235, 235);
   border-radius: 20px 20px 20px 20px;
@@ -384,7 +387,7 @@ Height:525px;
 .popular-result {
   background: #f2f2f2;
   width: 29%;
-  height: 525px;
+  Height:560px;
   display: flex;
   border-radius: 20px;
   flex-direction: column;
@@ -477,7 +480,9 @@ Height:525px;
 .bloc-card {
   display: flex;
   height: 500px;
+  width: 100%;
   gap: 2%;
+  min-width:50%;
 }
 
 .activity-result .card-column .border-activity {
@@ -502,6 +507,7 @@ Height:525px;
 
 .text-activity {
   font-weight: 600;
+  font-size: 13px;
   display: flex;
   justify-content: flex-start;
   margin-left: 20px;
@@ -548,6 +554,7 @@ footer a {
     margin: 0px auto;
     font-family: "Raleway", sans-serif;
     max-width: 992px;
+    min-width: 768px;
     background-color: white;
     width: 95%;
     height: auto;
@@ -803,10 +810,12 @@ footer a {
     gap: 3%;
   }
 
+  
   .accommodation-result {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     background-color: rgb(235, 235, 235);
     border-radius: 20px 20px 20px 20px;
     height: 30%;
@@ -821,7 +830,7 @@ footer a {
 
   .accommodation-result a {
     flex: 25%;
-    margin: 10px 20px;
+
     
   }
 
@@ -878,6 +887,18 @@ footer a {
     color: #d6d1d1;
   }
 
+.bloc-card-acc{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 645px;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  background-color: rgb(235, 235, 235);
+  border-radius: 20px 20px 20px 20px;
+}
   /* Popular Section */
   .popular-result {
     margin-top: 10%;
@@ -1029,20 +1050,18 @@ footer a {
     border-radius: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     padding-bottom: 20px;
-    max-height: 245px;
-    height: 251px;
+    max-height: 310px;
+    height: 250px;
   }
 
   .text-activity {
     font-weight: 600;
     display: flex;
     height: 25%;
-    margin: 0 0 20px;
     margin-left: 20px;
     align-items: center;
     justify-content: start;
     padding-left: 0px;
-    margin-bottom: -15px;
     vertical-align: bottom;
   }
 
@@ -1091,6 +1110,7 @@ footer a {
   body {
     font-family: "Raleway", "sans-serif";
     max-width: 768px;
+    min-width: 320px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1151,6 +1171,7 @@ footer a {
 
   .title-head {
     margin: 40px 20px;
+    width: 100%;
   }
 
   .title-head p {
@@ -1161,6 +1182,7 @@ footer a {
     font-style: normal;
     font-size: 15px;
     line-height: 26px;
+    white-space: normal;
   }
 
   .title-head h1 {
@@ -1170,6 +1192,7 @@ footer a {
     font-style: normal;
     font-size: 21px;
     line-height: 26px;
+    white-space: normal;
     
   }
 
@@ -1258,6 +1281,7 @@ footer a {
     width: 100%;
     height: auto;
     margin: auto auto 0px 20px;
+  
   }
 
   .label-filtre {
@@ -1282,7 +1306,8 @@ footer a {
     gap: 5px;
     justify-content: flex-start;
     padding-left: 10px;
-    font-size: 10px;
+    font-size: 11px;
+    padding-right: 50px;
   }
 
   .filter-button i {
@@ -1505,6 +1530,7 @@ footer a {
     height: 155px;
     border: 5px solid white;
     margin: 20px auto;
+    margin-left: 40px;
   }
 
   .popular-result img {
@@ -1555,7 +1581,6 @@ footer a {
     width: auto;
     height: auto;
     justify-content: space-evenly;
-
   }
 
   .activity-result h2 {
@@ -1573,11 +1598,10 @@ footer a {
     width: 100%;
     height: auto;
     padding: 0px 10% 0px 10%;
-    gap: 0;
+    
   }
 
   .activity-result .card-column {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -1585,30 +1609,27 @@ footer a {
     border-radius: 20px 20px 0 0;
     margin: auto;
   }
-.border-activity{
-  
-}
+
   .activity-result img {
     width: 100%;
-    height: 80%;
+    height: 50%;
     object-fit: cover;
   }
 
   .activity-result a {
     margin: auto;
     width: 100%;
+
   }
 
   .border-activity {
     border-radius: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
-    height: 500px;
+    
 
-    padding-bottom: 20px;
   }
 
   .text-activity {
-    height: 50px;
     width: auto;
     font-family: "Raleway";
     font-weight: 700;
@@ -1626,7 +1647,7 @@ footer a {
     justify-content: space-around;
     width: auto;
     background-color: #f2f2f2;
-    gap: 20px;
+    gap: 10px;
     height: auto;
   }
 
