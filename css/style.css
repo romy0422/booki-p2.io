@@ -618,7 +618,7 @@ footer a {
     margin-bottom: 10px;
     font-family: "Raleway";
     font-style: normal;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 26px;
   }
 
@@ -627,7 +627,7 @@ footer a {
     justify-content: space-between;
     font-family: "Raleway";
     font-style: normal;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 26px;
   }
 
@@ -1006,6 +1006,14 @@ footer a {
     margin: 0 0 0 0;
     color: black;
   }
+  .activity-result h2 {
+    flex-direction: column;
+    display: flex;
+    font-size: 22px;
+    height: 80px;
+    width: 50%;
+    margin: auto 40px;
+  }
 
   .bloc-card {
     display: flex;
@@ -1013,7 +1021,7 @@ footer a {
     width: 100%;
     height: 150px;
     flex: 1;
-    gap: 5%;
+    gap: 2.8%;
   }
 
   .activity-result .card-column {
@@ -1076,8 +1084,7 @@ footer a {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    margin-left: 60px;
-    padding-left: 10px;
+    white-space: nowrap;
   }
 
   footer a {
@@ -1179,8 +1186,9 @@ footer a {
     margin-bottom: 10px;
     font-family: "Raleway";
     font-style: normal;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 26px;
+    font-weight: 400;
   }
 
   .title-head h1 {
@@ -1188,7 +1196,7 @@ footer a {
     justify-content: space-between;
     font-family: "Raleway";
     font-style: normal;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 26px;
   }
 
@@ -1400,6 +1408,7 @@ footer a {
   .accommodation-result h2{
     margin:30px;
     width:80%;
+    white-space: nowrap;
   }
   .accommodation-result a {
     display: flex;
@@ -1534,8 +1543,8 @@ footer a {
   .popular-result img {
     object-fit: cover;
     display: flex;
-    width: 40%;
-    min-width: 150px;
+    width: 15%;
+    min-width: 92px;
     border-radius: 20px 0 0 20px;
     height:100%;
   }
@@ -1589,14 +1598,14 @@ footer a {
     font-size: 22px;
     height: 80px;
     width: 50%;
-    margin: auto 40px;
+    margin: auto 0;
   }
 
   .bloc-card {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 650px;
+    max-width: 900px;
     height: auto;
     margin:auto;
     padding: 0px 10% 0px 10%;
@@ -1646,7 +1655,7 @@ footer a {
   /* Footer */
 
   footer {
-    position: relative;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
