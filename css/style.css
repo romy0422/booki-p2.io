@@ -609,7 +609,7 @@ footer a {
    }
 
   .title-head {
-    margin-top: 50px 20px;
+    margin-top: 20px;
   }
 
   .title-head > p {
@@ -893,7 +893,7 @@ footer a {
     margin-top: 60px;
     margin-bottom: 20px;
     max-width: none;
-    min-width: none;
+   
   }
 
   .popular-result a {
@@ -911,7 +911,7 @@ footer a {
   }
 
   .popular-result p {
-    white-space: wrap;
+    white-space: normal;
   }
 
   .popular-result a {
@@ -1427,7 +1427,6 @@ footer a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding:auto;
     height: auto;
     margin:auto auto auto 0;
     background-color: white;
@@ -1495,7 +1494,6 @@ footer a {
     margin: 20px auto;
     border-radius: 0;
     max-width: none;
-    min-width: none;
   }
 
   .popular-result .title-graph {
@@ -1599,7 +1597,7 @@ footer a {
     width: 100%;
     max-width: 900px;
     height: auto;
-    margin:auto;
+    margin:0 0 50px 0;
     padding: 0px 10% 0px 10%;
     gap:0;
   }
