@@ -1406,9 +1406,11 @@ footer a {
     min-width: 0;
   }
   .accommodation-result h2{
-    margin:30px;
     width:80%;
     white-space: nowrap;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
   }
   .accommodation-result a {
     display: flex;
@@ -1497,10 +1499,11 @@ footer a {
   }
 
   .popular-result .title-graph {
-    margin: auto 20px;
-    padding: 20px 0 0 0;
-    width: 95%;
+   
+    width: 80%;
     justify-content: space-between;
+    max-width: 500px;
+    margin: auto;
   }
 
   .popular-result p {
