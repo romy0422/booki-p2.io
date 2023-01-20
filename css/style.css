@@ -769,6 +769,10 @@ footer a {
     align-items: center;
   }
 
+  .label-filtre{
+    margin-left: 10px;
+  }
+
   /* Infos */
 
   .info {
